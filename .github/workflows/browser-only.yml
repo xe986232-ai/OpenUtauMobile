@@ -1,1 +1,54 @@
+name: Browser Only (for Vercel)
 
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    uses: ./.github/workflows/build-browser.yml
+    with:
+      version: ''
+      build_number: 0
+      source_sha: ${{ github.sha }}
+      action_run_id: ${{ github.run_id }}
+      version_lyrics: 'browser'
+
+  package:
+    needs: build
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Download browser package
+        uses: actions/download-artifact@v4
+        with:
+          name: OpenUtauMobile-browser-wasm
+          path: pkg
+
+      - name: Extract and add vercel.json
+        run: |
+          mkdir site
+          tar -xzf pkg/OpenUtauMobile-browser-wasm.tar.gz -C site
+          cat > site/vercel.json << 'EOF'
+          {
+            "headers": [
+              {
+                "source": "/(.*)",
+                "headers": [
+                  { "key": "Cross-Origin-Opener-Policy", "value": "same-origin" },
+                  { "key": "Cross-Origin-Embedder-Policy", "value": "require-corp" }
+                ]
+              }
+            ]
+          }
+          EOF
+          ls -la site
+          du -sh site
+
+      - name: Upload ready-to-deploy site
+        uses: actions/upload-artifact@v4
+        with:
+          name: vercel-site
+          path: site/
+          if-no-files-found: error
