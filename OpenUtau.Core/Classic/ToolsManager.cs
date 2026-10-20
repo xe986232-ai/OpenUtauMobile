@@ -33,34 +33,6 @@ namespace OpenUtau.Classic {
             }
         }
 
-        IResampler LoadResampler(string filePath, string basePath) {
-            if (!File.Exists(filePath)) {
-                return null;
-            }
-            string ext = Path.GetExtension(filePath).ToLower();
-            if ((OS.IsWindows() || !string.IsNullOrEmpty(Preferences.Default.WinePath)) && (ext == ".exe" || ext == ".bat")) {
-                return new ExeResampler(filePath, basePath);
-            } 
-            if (!OS.IsWindows() && (ext == ".sh" || string.IsNullOrEmpty(ext))) {
-                return new ExeResampler(filePath, basePath);
-            }
-            return null;
-        }
-
-        IWavtool LoadWavtool(string filePath, string basePath) {
-            if (!File.Exists(filePath)) {
-                return null;
-            }
-            string ext = Path.GetExtension(filePath).ToLower();
-            if ((OS.IsWindows() || !string.IsNullOrEmpty(Preferences.Default.WinePath)) && (ext == ".exe" || ext == ".bat")) {
-                return new ExeWavtool(filePath, basePath);
-            } 
-            if (!OS.IsWindows() && (ext == ".sh" || string.IsNullOrEmpty(ext))) {
-                return new UnixWavtool(filePath, basePath);
-            }
-            return null;
-        }
-
         public void Initialize() {
             lock (_locker) {
                 SearchResamplers();
@@ -71,30 +43,7 @@ namespace OpenUtau.Classic {
         public void SearchResamplers() {
             resamplers.Clear();
             resamplersMap.Clear();
-            resamplers.Add(new WorldlineResampler());
-            resamplers.Add(new HifisamplerResampler());
-            var builtInNames = resamplers.Select(r => r.ToString()).ToHashSet();
-            string basePath = PathManager.Inst.ResamplersPath;
-            try {
-                Directory.CreateDirectory(basePath);
-                foreach (var file in Directory.EnumerateFiles(basePath, "*", new EnumerationOptions() {
-                    RecurseSubdirectories = true
-                })) {
-                    var driver = LoadResampler(file, basePath);
-                    if (driver == null) {
-                        continue;
-                    }
-                    // A file named like a built-in resampler would replace it in resamplersMap.
-                    if (builtInNames.Contains(driver.ToString())) {
-                        Log.Warning($"Skipped resampler {file}: name conflict.");
-                        continue;
-                    }
-                    resamplers.Add(driver);
-                }
-            } catch (Exception e) {
-                Log.Error(e, "Failed to search resamplers.");
-                resamplers.Clear();
-            }
+            resamplers.Add(new SilentResampler());
             foreach (var resampler in resamplers) {
                 resamplersMap[resampler.ToString()] = resampler;
             }
@@ -103,23 +52,8 @@ namespace OpenUtau.Classic {
         public void SearchWavtools() {
             wavtools.Clear();
             wavtoolsMap.Clear();
-            wavtools.Add(new SharpWavtool(true));
-            wavtools.Add(new SharpWavtool(false));
-            string basePath = PathManager.Inst.WavtoolsPath;
-            try {
-                Directory.CreateDirectory(basePath);
-                foreach (var file in Directory.EnumerateFiles(basePath, "*", new EnumerationOptions() {
-                    RecurseSubdirectories = true
-                })) {
-                    var driver = LoadWavtool(file, basePath);
-                    if (driver != null) {
-                        wavtools.Add(driver);
-                    }
-                }
-            } catch (Exception e) {
-                Log.Error(e, "Failed to search resamplers.");
-                wavtools.Clear();
-            }
+            wavtools.Add(new SilentWavtool(true));
+            wavtools.Add(new SilentWavtool(false));
             foreach (var wavtool in wavtools) {
                 wavtoolsMap[wavtool.ToString()] = wavtool;
             }
@@ -130,7 +64,7 @@ namespace OpenUtau.Classic {
                 if (name != null && resamplersMap.TryGetValue(name, out var resampler)) {
                     return resampler;
                 } else {
-                    return resamplersMap[WorldlineResampler.name];
+                    return resamplersMap[SilentResampler.name];
                 }
             }
         }
@@ -140,7 +74,7 @@ namespace OpenUtau.Classic {
                 if (name != null && wavtoolsMap.TryGetValue(name, out var wavtool)) {
                     return wavtool;
                 } else {
-                    return wavtoolsMap[SharpWavtool.nameConvergence];
+                    return wavtoolsMap[SilentWavtool.nameConvergence];
                 }
             }
         }

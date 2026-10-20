@@ -126,7 +126,7 @@ public class RendererPickerViewModel : PopupViewModelBase, ICmdSubscriber, IDisp
         _refreshing = true;
         Preferences.Default.DefaultWavtools.TryGetValue(RendererRegistry.CLASSIC, out string? wavtool);
         Preferences.Default.DefaultResamplers.TryGetValue(RendererRegistry.CLASSIC, out string? resampler);
-        this.RaiseAndSetIfChanged(ref _selectedWavtool, Wavtools.Contains(wavtool!) ? wavtool : Wavtools.FirstOrDefault(tool => tool == SharpWavtool.nameConvergence), nameof(SelectedWavtool));
+        this.RaiseAndSetIfChanged(ref _selectedWavtool, Wavtools.Contains(wavtool!) ? wavtool : Wavtools.FirstOrDefault(tool => tool == SilentWavtool.nameConvergence), nameof(SelectedWavtool));
         this.RaiseAndSetIfChanged(ref _selectedResampler, ToolsManager.Inst.Resamplers.Any(tool => tool.ToString() == resampler)
             ? resampler : ToolsManager.Inst.Resamplers.FirstOrDefault(tool => tool.ToString() == "worldline")?.ToString(), nameof(SelectedResampler));
         _refreshing = false;

@@ -98,15 +98,9 @@ namespace OpenUtau.Core.Render {
             GetOrCreate(renderer)?.ExpressionGraphSlot ?? renderer;
 
         public static IRenderer CreateRenderer(string renderer) {
-            if (renderer == CLASSIC) {
-                return new ClassicRenderer();
-            } else if (renderer == WORLDLINE_R2) {
-                return new WorldlineRenderer(version: 20);
-            } else if (renderer == WORLDLINE_R11) {
-                // Before the prefix match below, which maps any WORLDLINE-* to R1.
-                return new WorldlineRenderer(version: 11);
-            } else if (renderer?.StartsWith(WORLDLINE_R.Substring(0, 9)) ?? false) {
-                return new WorldlineRenderer(version: 10);
+            if (renderer == CLASSIC || renderer == WORLDLINE_R2 || renderer == WORLDLINE_R11
+                || (renderer?.StartsWith(WORLDLINE_R.Substring(0, 9)) ?? false)) {
+                return new SilentRenderer(renderer);
             }
             return TryCreateExternalRenderer(renderer);
         }
@@ -274,11 +268,11 @@ namespace OpenUtau.Core.Render {
         }
 
         public static IReadOnlyList<IResampler> GetSupportedResamplers(IWavtool? wavtool) {
-            if (wavtool is SharpWavtool) {
+            if (wavtool is SilentWavtool) {
                 return ToolsManager.Inst.Resamplers;
             } else {
                 return ToolsManager.Inst.Resamplers
-                    .Where(r => !(r is WorldlineResampler))
+                    .Where(r => !(r is SilentResampler))
                     .ToArray();
             }
         }

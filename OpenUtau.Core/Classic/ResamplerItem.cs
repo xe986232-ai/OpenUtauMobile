@@ -88,10 +88,8 @@ namespace OpenUtau.Classic {
             var pitchIntervalMs = MusicMath.TempoTickToMs(tempo, 5);
             var pitchSampleStartMs = phone.positionMs - pitchLeadingMs;
 
-            bool usesCurves = resampler is WorldlineResampler or HifisamplerResampler;
-            float[]? phraseGrowl = resampler is HifisamplerResampler
-                ? phrase.curves.FirstOrDefault(c => c.Item1 == Core.Format.Ustx.GRWC)?.Item2
-                : null;
+            bool usesCurves = resampler is SilentResampler;
+            float[]? phraseGrowl = null;
             float[]? NewCurve(float[]? phraseCurve) => usesCurves && phraseCurve != null ? new float[pitchCount] : null;
             tension = NewCurve(phrase.tension);
             breathiness = NewCurve(phrase.breathiness);

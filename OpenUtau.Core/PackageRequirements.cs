@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using OpenUtau.Classic;
-using OpenUtau.Classic.Hifisampler;
 using OpenUtau.Core.Analysis;
 using OpenUtau.Core.Render;
 using OpenUtau.Core.Ustx;
@@ -10,18 +9,11 @@ namespace OpenUtau.Core {
     public static class PackageRequirements {
         public static readonly IReadOnlySet<string> Installable = new HashSet<string> {
             Hnsep.PackageId,
-            HifiVocoder.PackageId,
             "game",
             "rmvpe",
         };
 
-        /// <summary>The packages a track's renderer (and resampler) needs. hifisampler needs hnsep only for its curves.</summary>
-        public static string[] For(URenderSettings settings) => settings.renderer switch {
-            Renderers.WORLDLINE_R11 => [Hnsep.PackageId],
-            Renderers.WORLDLINE_R2 => [HifiVocoder.PackageId],
-            Renderers.CLASSIC when (settings.Resampler?.ToString() ?? settings.resampler) == HifisamplerResampler.name
-                => [HifiVocoder.PackageId, Hnsep.PackageId],
-            _ => [],
-        };
+        /// <summary>合成已移除，任何渲染器都不再需要额外的模型包。</summary>
+        public static string[] For(URenderSettings settings) => [];
     }
 }

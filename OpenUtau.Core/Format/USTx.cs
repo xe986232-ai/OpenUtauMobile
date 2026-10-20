@@ -46,7 +46,7 @@ namespace OpenUtau.Core.Format {
             project.RegisterExpression(new UExpressionDescriptor("dynamics (curve)", DYN, -240, 120, 0) { type = UExpressionType.Curve });
             project.RegisterExpression(new UExpressionDescriptor("pitch deviation (curve)", PITD, -1200, 1200, 0) { type = UExpressionType.Curve });
             project.RegisterExpression(new UExpressionDescriptor("voice color", CLR, false, new string[0]));
-            project.RegisterExpression(new UExpressionDescriptor("resampler engine", ENG, false, new string[] { "", WorldlineResampler.name }));
+            project.RegisterExpression(new UExpressionDescriptor("resampler engine", ENG, false, new string[] { "", SilentResampler.name }));
             project.RegisterExpression(new UExpressionDescriptor("velocity", VEL, 0, 200, 100));
             project.RegisterExpression(new UExpressionDescriptor("volume", VOL, 0, 200, 100));
             project.RegisterExpression(new UExpressionDescriptor("attack", ATK, 0, 200, 100));

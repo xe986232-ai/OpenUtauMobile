@@ -38,7 +38,7 @@ namespace OpenUtauMobile.DesktopUI.Services
         public static string Folder(DesktopToolKind kind) => kind == DesktopToolKind.Resampler ? PathManager.Inst.ResamplersPath : PathManager.Inst.WavtoolsPath;
         private static bool IsBuiltin(string name, DesktopToolKind kind) => kind == DesktopToolKind.Resampler
             ? name is "worldline" or "hifisampler"
-            : name == SharpWavtool.nameConvergence || name == SharpWavtool.nameSimple;
+            : name == SilentWavtool.nameConvergence || name == SilentWavtool.nameSimple;
 
         // 选择器与移动端共用引擎注册表；文件发现状态仅用于工具管理页面。
         public static IReadOnlyList<DesktopTool> GetRegisteredTools(DesktopToolKind kind)
