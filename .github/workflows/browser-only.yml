@@ -19,6 +19,8 @@ jobs:
   package:
     needs: build
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
     steps:
       - name: Download browser package
         uses: actions/download-artifact@v4
@@ -52,3 +54,13 @@ jobs:
           name: vercel-site
           path: site/
           if-no-files-found: error
+
+      - name: Publish site to branch vercel-site
+        run: |
+          cd site
+          git init -b vercel-site
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Build ${{ github.sha }}"
+          git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" vercel-site
