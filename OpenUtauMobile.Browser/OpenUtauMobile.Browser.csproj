@@ -34,5 +34,4 @@
     <ItemGroup>
         <ProjectReference Include="..\OpenUtauMobile\OpenUtauMobile.csproj"/>
     </ItemGroup>
-    <Import Project="../native/worldline/WorldlineNative.targets" />
 </Project>

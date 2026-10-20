@@ -2,7 +2,7 @@ using System;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using OpenUtau.Core.Render;
+using OpenUtau.Core;
 
 namespace OpenUtauMobile.iOS
 {
@@ -12,7 +12,7 @@ namespace OpenUtauMobile.iOS
         internal static void Initialize()
         {
             // Worldline 已静态链入主程序；在宿主层解析，保留 Core 的跨平台库名。
-            NativeLibrary.SetDllImportResolver(typeof(Worldline).Assembly, Resolve);
+            NativeLibrary.SetDllImportResolver(typeof(DocManager).Assembly, Resolve);
         }
 
         private static IntPtr Resolve(string libraryName, Assembly assembly, DllImportSearchPath? searchPath)
