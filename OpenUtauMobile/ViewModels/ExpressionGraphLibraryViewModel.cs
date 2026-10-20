@@ -209,8 +209,7 @@ public sealed class ExpressionGraphLibraryViewModel : NavigateViewModelBase, ICm
 
     private string[] RendererFamilies()
     {
-        string[] preferred = [Renderers.CLASSIC, Renderers.WORLDLINE_R, Renderers.DIFFSINGER,
-            Renderers.NEUTRINO];
+        string[] preferred = [Renderers.CLASSIC, Renderers.WORLDLINE_R];
         string[] used =
         [
             .. _project.tracks.Select(track => track.RendererSettings?.renderer).OfType<string>()

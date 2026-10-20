@@ -519,12 +519,7 @@ namespace OpenUtau.Core.Editing {
             for (int ph_i = phrases.Count() - 1; ph_i >= 0; ph_i--) {
                 var phrase = phrases[ph_i];
                 Render.RenderPitchResult result;
-                if (pitchSteps.HasValue && renderer is DiffSingerRenderer diffSingerRenderer) {
-                    result = diffSingerRenderer.LoadRenderedPitchLive(
-                        phrase, positions, pitchSteps.Value, fastRealtime);
-                } else {
-                    result = renderer.LoadRenderedPitch(phrase, positions);
-                }
+                result = renderer.LoadRenderedPitch(phrase, positions);
                 if (result == null) {
                     continue;
                 }

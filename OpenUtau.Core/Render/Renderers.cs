@@ -24,20 +24,14 @@ namespace OpenUtau.Core.Render {
         public const string WORLDLINE_R = "WORLDLINE-R";
         public const string WORLDLINE_R2 = "WORLDLINE-R2";
         public const string WORLDLINE_R11 = "WORLDLINE-R1.1";
-        public const string DIFFSINGER = "DIFFSINGER";
-        public const string NEUTRINO = "NEUTRINO";
 
         static readonly string[] classicRenderers = new[] { WORLDLINE_R, WORLDLINE_R11, WORLDLINE_R2, CLASSIC };
-        static readonly string[] diffSingerRenderers = new[] { DIFFSINGER };
-        static readonly string[] neutrinoRenderers = new[] { NEUTRINO };
         static readonly string[] noRenderers = new string[0];
         static readonly HashSet<string> builtinRendererNames = new HashSet<string> {
             CLASSIC,
             WORLDLINE_R,
             WORLDLINE_R2,
             WORLDLINE_R11,
-            DIFFSINGER,
-            NEUTRINO,
         };
 
         sealed class RendererFactory {
@@ -73,10 +67,6 @@ namespace OpenUtau.Core.Render {
             switch (singerType) {
                 case USingerType.Classic:
                     return classicRenderers;
-                case USingerType.DiffSinger:
-                    return diffSingerRenderers;
-                case USingerType.Neutrino:
-                    return neutrinoRenderers;
                 default:
                     return noRenderers;
             }
@@ -117,10 +107,6 @@ namespace OpenUtau.Core.Render {
                 return new WorldlineRenderer(version: 11);
             } else if (renderer?.StartsWith(WORLDLINE_R.Substring(0, 9)) ?? false) {
                 return new WorldlineRenderer(version: 10);
-            } else if (renderer == DIFFSINGER) {
-                return new DiffSinger.DiffSingerRenderer();
-            } else if (renderer == NEUTRINO) {
-                return new Neutrino.NeutrinoRenderer();
             }
             return TryCreateExternalRenderer(renderer);
         }

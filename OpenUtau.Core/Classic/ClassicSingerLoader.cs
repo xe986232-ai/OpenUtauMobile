@@ -7,10 +7,6 @@ namespace OpenUtau.Classic {
     public static class ClassicSingerLoader {
         static USinger AdjustSingerType(Voicebank v) {
             switch (v.SingerType) {
-                case USingerType.DiffSinger:
-                    return new Core.DiffSinger.DiffSingerSinger(v) as USinger;
-                case USingerType.Neutrino:
-                    return new Core.Neutrino.NeutrinoSinger(v) as USinger;
                 default:
                     return new ClassicSinger(v) as USinger;
             }

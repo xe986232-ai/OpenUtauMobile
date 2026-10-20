@@ -105,7 +105,6 @@ namespace OpenUtau.Core {
             // The phrase source builder installs itself as the current worker;
             // without one, parts build their phrases inline.
             new Pipeline.PhraseSourceBuilder(mainScheduler);
-            RealTimePitchGenerationService.Inst.Initialize();
         }
 
         public void SearchAllLegacyPlugins() {
@@ -316,7 +315,6 @@ namespace OpenUtau.Core {
                     RenderView.Inst.ForgetAll();
                     Pipeline.DocumentSnapshotStore.Inst.ForgetAll();
                     BumpRevision();
-                    DiffSingerRealCurveScheduler.CancelAll();
                 } else if (cmd is PhonemizedNotification) {
                     // Phonemized output is document content (UPhoneme list);
                     // stamp a new revision for the snapshots taken from it.
@@ -562,8 +560,7 @@ namespace OpenUtau.Core {
             var commandList = commands.ToList();
             BumpRevision();
             InvalidateGroup(commandList);
-            RealTimePitchGenerationService.SuppressCallbacks = true;
-            try {
+            {
                 foreach (var cmd in commandList) {
                     lock (Project) {
                         cmd.Execute();
@@ -576,8 +573,6 @@ namespace OpenUtau.Core {
                         ExecuteCmd(new PreRenderNotification());
                     }
                 }
-            } finally {
-                RealTimePitchGenerationService.SuppressCallbacks = false;
             }
         }
 
