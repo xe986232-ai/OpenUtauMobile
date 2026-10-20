@@ -1,0 +1,19 @@
+name: DAW Core Build Check
+
+on:
+  push:
+    branches: [daw-core]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    uses: ./.github/workflows/build-browser.yml
+    with:
+      version: ''
+      build_number: 0
+      source_sha: ${{ github.sha }}
+      action_run_id: ${{ github.run_id }}
+      version_lyrics: 'browser'
