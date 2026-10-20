@@ -24,17 +24,11 @@ namespace OpenUtau.Core.Render {
         public const string WORLDLINE_R = "WORLDLINE-R";
         public const string WORLDLINE_R2 = "WORLDLINE-R2";
         public const string WORLDLINE_R11 = "WORLDLINE-R1.1";
-        public const string ENUNU = "ENUNU";
-        public const string VOGEN = "VOGEN";
         public const string DIFFSINGER = "DIFFSINGER";
-        public const string VOICEVOX = "VOICEVOX";
         public const string NEUTRINO = "NEUTRINO";
 
         static readonly string[] classicRenderers = new[] { WORLDLINE_R, WORLDLINE_R11, WORLDLINE_R2, CLASSIC };
-        static readonly string[] enunuRenderers = new[] { ENUNU };
-        static readonly string[] vogenRenderers = new[] { VOGEN };
         static readonly string[] diffSingerRenderers = new[] { DIFFSINGER };
-        static readonly string[] voicevoxRenderers = new[] { VOICEVOX };
         static readonly string[] neutrinoRenderers = new[] { NEUTRINO };
         static readonly string[] noRenderers = new string[0];
         static readonly HashSet<string> builtinRendererNames = new HashSet<string> {
@@ -42,10 +36,7 @@ namespace OpenUtau.Core.Render {
             WORLDLINE_R,
             WORLDLINE_R2,
             WORLDLINE_R11,
-            ENUNU,
-            VOGEN,
             DIFFSINGER,
-            VOICEVOX,
             NEUTRINO,
         };
 
@@ -82,14 +73,8 @@ namespace OpenUtau.Core.Render {
             switch (singerType) {
                 case USingerType.Classic:
                     return classicRenderers;
-                case USingerType.Enunu:
-                    return enunuRenderers;
-                case USingerType.Vogen:
-                    return vogenRenderers;
                 case USingerType.DiffSinger:
                     return diffSingerRenderers;
-                case USingerType.Voicevox:
-                    return voicevoxRenderers;
                 case USingerType.Neutrino:
                     return neutrinoRenderers;
                 default:
@@ -132,14 +117,8 @@ namespace OpenUtau.Core.Render {
                 return new WorldlineRenderer(version: 11);
             } else if (renderer?.StartsWith(WORLDLINE_R.Substring(0, 9)) ?? false) {
                 return new WorldlineRenderer(version: 10);
-            } else if (renderer == ENUNU) {
-                return new Enunu.EnunuRenderer();
-            } else if (renderer == VOGEN) {
-                return new Vogen.VogenRenderer();
             } else if (renderer == DIFFSINGER) {
                 return new DiffSinger.DiffSingerRenderer();
-            } else if (renderer == VOICEVOX) {
-                return new Voicevox.VoicevoxRenderer();
             } else if (renderer == NEUTRINO) {
                 return new Neutrino.NeutrinoRenderer();
             }

@@ -210,25 +210,6 @@ public class SplashScreenViewModel : NavigateViewModelBase, IDisposable
 
     private static void EnsureBuiltinLoaded()
     {
-        Assembly.Load("OpenUtauMobile.Plugin.Renderers");
-
-        if (OperatingSystem.IsWindows() || OperatingSystem.IsMacOS() || OperatingSystem.IsLinux())
-        {
-            return; // 桌面平台的内建音素器已经由Core加载
-        }
-
-        Assembly builtinAssembly = Assembly.Load("OpenUtau.Plugin.Builtin");
-
-        foreach (Type type in builtinAssembly.GetExportedTypes())
-        {
-            if (!type.IsAbstract && type.IsSubclassOf(typeof(Phonemizer)))
-            {
-                PhonemizerFactory.Get(type);
-            }
-        }
-
-        PhonemizerFactory.BuildList();
-
-        Log.Information("内建插件程序集合并成功。");
+        // 合成相关的内建音素器与渲染器程序集已移除，这里无需再加载。
     }
 }

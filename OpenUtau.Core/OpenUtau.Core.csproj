@@ -60,11 +60,6 @@
             <AutoGen>True</AutoGen>
             <DependentUpon>Resources.resx</DependentUpon>
         </Compile>
-        <Compile Update="Vogen\Data\VogenRes.Designer.cs">
-            <DesignTime>True</DesignTime>
-            <AutoGen>True</AutoGen>
-            <DependentUpon>VogenRes.resx</DependentUpon>
-        </Compile>
     </ItemGroup>
     <ItemGroup>
         <EmbeddedResource Update="Analysis\Crepe\Resources.resx">
@@ -78,10 +73,6 @@
         <EmbeddedResource Update="G2p\Data\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>
             <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-        </EmbeddedResource>
-        <EmbeddedResource Update="Vogen\Data\VogenRes.resx">
-            <Generator>ResXFileCodeGenerator</Generator>
-            <LastGenOutput>VogenRes.Designer.cs</LastGenOutput>
         </EmbeddedResource>
     </ItemGroup>
     <PropertyGroup Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Windows)))' == 'true'">
