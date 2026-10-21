@@ -20,8 +20,7 @@
         <!-- Removing from EmbeddedResource prevents the default MSBuild RESX compilation pass. -->
         <EmbeddedResource Remove="Assets\Lang\*.resx"/>
         <AvaloniaResource Include="Assets\Lang\Strings.en.resx"/>
-        <AvaloniaResource Include="Assets\Lang\Strings.zh-Hans.resx"/>
-        <AvaloniaResource Include="Assets\Lang\Strings.ja.resx"/>
+        <AvaloniaResource Include="Assets\Lang\Strings.id.resx"/>
         <AvaloniaResource Include="Assets\Lang\Strings.ru.resx"/>
         <AvaloniaResource Include="Assets\Lang\Strings.uk.resx"/>
     </ItemGroup>

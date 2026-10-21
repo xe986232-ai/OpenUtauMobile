@@ -523,9 +523,8 @@ OpenUtauMobile/Assets/Lang/
 
 | 语言 | Language Code | 资源文件 |
 | --- | --- | --- |
-| 简体中文 | `zh-Hans` | `Strings.zh-Hans.resx` |
+| Bahasa Indonesia | `id` | `Strings.id.resx` |
 | English | `en` | `Strings.en.resx` |
-| 日本語 | `ja` | `Strings.ja.resx` |
 | Русский | `ru` | `Strings.ru.resx` |
 | Українська | `uk` | `Strings.uk.resx` |
 
@@ -541,8 +540,7 @@ Strings.{language-code}.resx
 
 ```text
 Strings.en.resx
-Strings.zh-Hans.resx
-Strings.ja.resx
+Strings.id.resx
 ```
 
 ### 修改已有翻译
@@ -717,8 +715,7 @@ PianoRoll.MultiSelect
 
 ```text
 Strings.en.resx
-Strings.zh-Hans.resx
-Strings.ja.resx
+Strings.id.resx
 Strings.ru.resx
 Strings.uk.resx
 ```

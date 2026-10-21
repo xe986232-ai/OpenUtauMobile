@@ -91,7 +91,7 @@ public class SplashScreenViewModel : NavigateViewModelBase, IDisposable
                     }
                     catch (CultureNotFoundException)
                     {
-                        culture = new CultureInfo("zh-Hans");
+                        culture = new CultureInfo("id");
                     }
                 }
                 string resolvedLanguage = LocalizationManager.ResolveLanguagePreference(languagePreference);

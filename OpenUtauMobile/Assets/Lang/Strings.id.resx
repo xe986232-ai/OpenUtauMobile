@@ -1,0 +1,2464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common.Back" xml:space="preserve">
+    <value>Kembali</value>
+  </data>
+  <data name="Common.CollapseRail" xml:space="preserve">
+    <value>Ciutkan</value>
+  </data>
+  <data name="Common.Refresh" xml:space="preserve">
+    <value>Muat ulang</value>
+  </data>
+  <data name="Common.Cancel" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="Common.Confirm" xml:space="preserve">
+    <value>Konfirmasi</value>
+  </data>
+  <data name="Common.Close" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="Common.Next" xml:space="preserve">
+    <value>Berikutnya</value>
+  </data>
+  <data name="Common.Previous" xml:space="preserve">
+    <value>Sebelumnya</value>
+  </data>
+  <data name="Common.Skip" xml:space="preserve">
+    <value>Lewati</value>
+  </data>
+  <data name="Common.Delete" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="Common.Apply" xml:space="preserve">
+    <value>Terapkan</value>
+  </data>
+  <data name="Common.File" xml:space="preserve">
+    <value>Berkas</value>
+  </data>
+  <data name="Common.Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Common.Copy" xml:space="preserve">
+    <value>Salin</value>
+  </data>
+  <data name="Common.Cut" xml:space="preserve">
+    <value>Potong</value>
+  </data>
+  <data name="Common.Paste" xml:space="preserve">
+    <value>Tempel</value>
+  </data>
+  <data name="Common.SelectAll" xml:space="preserve">
+    <value>Pilih Semua</value>
+  </data>
+  <data name="Common.Install" xml:space="preserve">
+    <value>Pasang</value>
+  </data>
+  <data name="Common.Update" xml:space="preserve">
+    <value>Perbarui</value>
+  </data>
+  <data name="Common.Installed" xml:space="preserve">
+    <value>Terpasang</value>
+  </data>
+  <data name="Common.Uninstall" xml:space="preserve">
+    <value>Copot</value>
+  </data>
+  <data name="Common.Unknown" xml:space="preserve">
+    <value>Tidak diketahui</value>
+  </data>
+  <data name="Common.Details" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="Settings.Title" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="Settings.Nav.EditAndBehaviour" xml:space="preserve">
+    <value>Pengeditan &amp; Perilaku</value>
+  </data>
+  <data name="Settings.Nav.EditAndBehaviour.Sub" xml:space="preserve">
+    <value>Geser halaman otomatis…</value>
+  </data>
+  <data name="Settings.Nav.RenderAndPerformance" xml:space="preserve">
+    <value>Render &amp; Performa</value>
+  </data>
+  <data name="Settings.Nav.RenderAndPerformance.Sub" xml:space="preserve">
+    <value>Renderer, output audio, parameter ML…</value>
+  </data>
+  <data name="Settings.Nav.FileAndStorage" xml:space="preserve">
+    <value>Berkas &amp; Penyimpanan</value>
+  </data>
+  <data name="Settings.Nav.FileAndStorage.Sub" xml:space="preserve">
+    <value>Lokasi penyanyi, simpan otomatis…</value>
+  </data>
+  <data name="Settings.Nav.AppearanceAndLanguage" xml:space="preserve">
+    <value>Tampilan &amp; Bahasa</value>
+  </data>
+  <data name="Settings.Nav.AppearanceAndLanguage.Sub" xml:space="preserve">
+    <value>Tema, bahasa, potret penyanyi…</value>
+  </data>
+  <data name="Settings.Edit.PianoKeyBehavior" xml:space="preserve">
+    <value>Perilaku Tuts Piano</value>
+  </data>
+  <data name="Settings.Edit.PianoKeyBehavior.Desc" xml:space="preserve">
+    <value>Suara yang keluar saat tuts piano ditekan</value>
+  </data>
+  <data name="Settings.Edit.PianoKeyLabelMode" xml:space="preserve">
+    <value>Tampilkan di Tuts Piano</value>
+  </data>
+  <data name="Settings.Edit.PianoKeyLabelMode.Desc" xml:space="preserve">
+    <value>Pilih cara penamaan nada pada tuts piano</value>
+  </data>
+  <data name="Settings.Edit.SoundFontPath" xml:space="preserve">
+    <value>Lokasi Berkas SoundFont</value>
+  </data>
+  <data name="Settings.Edit.SoundFontPath.Change" xml:space="preserve">
+    <value>Pilih</value>
+  </data>
+  <data name="Settings.Edit.SoundFontPath.Loaded" xml:space="preserve">
+    <value>✓ Termuat</value>
+  </data>
+  <data name="Settings.Edit.SoundFontPath.NotLoaded" xml:space="preserve">
+    <value>⚠ Belum termuat - Pilih berkas SF2 yang valid</value>
+  </data>
+  <data name="Settings.Edit.AutoScrollBehavior" xml:space="preserve">
+    <value>Perilaku Gulir Otomatis</value>
+  </data>
+  <data name="Settings.Edit.AutoScrollBehavior.Desc" xml:space="preserve">
+    <value>Perilaku geser halaman otomatis saat pemutaran</value>
+  </data>
+  <data name="Settings.Edit.AndroidFullscreenMode" xml:space="preserve"><value>Tampilan Layar Penuh</value></data>
+  <data name="Settings.Edit.AndroidFullscreenMode.Desc" xml:space="preserve"><value>Pilih kapan bilah sistem Android disembunyikan.</value></data>
+  <data name="Settings.AndroidFullscreen.Always" xml:space="preserve"><value>Selalu</value></data>
+  <data name="Settings.AndroidFullscreen.EditorOnly" xml:space="preserve"><value>Hanya Editor</value></data>
+  <data name="Settings.AndroidFullscreen.Off" xml:space="preserve"><value>Mati</value></data>
+  <data name="Settings.Edit.AndroidKeepScreenAwake" xml:space="preserve"><value>Jaga Layar Tetap Menyala Saat Mengedit</value></data>
+  <data name="Settings.Edit.AndroidKeepScreenAwake.Desc" xml:space="preserve"><value>Cegah layar tidur selama editor terbuka.</value></data>
+  <data name="Settings.Edit.PitchPenCanvasDrag" xml:space="preserve">
+    <value>Geser Kanvas Saat Mengedit Pitch</value>
+  </data>
+  <data name="Settings.Edit.PitchPenCanvasDrag.Desc" xml:space="preserve">
+    <value>Jika aktif, menggeser di luar area sentuh not yang diperluas akan menggeser kanvas; menggeser di dalamnya mengedit pitch.</value>
+  </data>
+  <data name="Settings.Edit.PitchPenHitTickExtension" xml:space="preserve">
+    <value>Perluasan Area Sentuh Horizontal (tick)</value>
+  </data>
+  <data name="Settings.Edit.PitchPenHitTickExtension.Desc" xml:space="preserve">
+    <value>Memperluas area sentuh not sebelum dan sesudah not sebesar 0–960 tick.</value>
+  </data>
+  <data name="Settings.Edit.PitchPenHitToneExtension" xml:space="preserve">
+    <value>Perluasan Area Sentuh Vertikal (semiton)</value>
+  </data>
+  <data name="Settings.Edit.PitchPenHitToneExtension.Desc" xml:space="preserve">
+    <value>Memperluas area sentuh not di atas dan di bawah not sebesar 0–12 semiton.</value>
+  </data>
+  <data name="Settings.Edit.PlaybackRefreshRate" xml:space="preserve">
+    <value>Laju Penyegaran Pemutaran</value>
+  </data>
+  <data name="Settings.Edit.PlaybackRefreshRate.Desc" xml:space="preserve">
+    <value>Frekuensi penyegaran UI saat pemutaran. Nilai lebih tinggi lebih mulus tetapi memakai lebih banyak CPU.</value>
+  </data>
+  <data name="Settings.Edit.ShowPortrait" xml:space="preserve">
+    <value>Tampilkan Potret</value>
+  </data>
+  <data name="Settings.Edit.ShowPortrait.Desc" xml:space="preserve">
+    <value>Tampilkan potret penyanyi di piano roll.</value>
+  </data>
+  <data name="Settings.Edit.UndoLimit" xml:space="preserve">
+    <value>Batas Langkah Undo</value>
+  </data>
+  <data name="Settings.Edit.UndoLimit.Desc" xml:space="preserve">
+    <value>Jumlah maksimum riwayat undo yang disimpan di memori.</value>
+  </data>
+  <data name="Settings.Edit.AutoSave" xml:space="preserve">
+    <value>Simpan Otomatis</value>
+  </data>
+  <data name="Settings.Edit.AutoSave.Enabled" xml:space="preserve">
+    <value>Aktifkan Simpan Otomatis</value>
+  </data>
+  <data name="Settings.Edit.AutoSave.Desc" xml:space="preserve">
+    <value>Selang waktu penyimpanan otomatis proyek saat mengedit.</value>
+  </data>
+  <data name="Settings.PianoKey.Silent" xml:space="preserve">
+    <value>Senyap</value>
+  </data>
+  <data name="Settings.PianoKey.SineWave" xml:space="preserve">
+    <value>Gelombang Sinus</value>
+  </data>
+  <data name="Settings.PianoKey.SoundFont" xml:space="preserve">
+    <value>Sampel Piano (SF2)</value>
+  </data>
+  <data name="Settings.PianoKeyLabel.PitchLabels" xml:space="preserve">
+    <value>Label Nada</value>
+  </data>
+  <data name="Settings.PianoKeyLabel.TonicPitchLabels" xml:space="preserve">
+    <value>Hanya Label Nada Dasar</value>
+  </data>
+  <data name="Settings.PianoKeyLabel.NumberedNotation" xml:space="preserve">
+    <value>Notasi Angka</value>
+  </data>
+  <data name="Settings.AutoScroll.Disabled" xml:space="preserve">
+    <value>Nonaktif</value>
+  </data>
+  <data name="Settings.AutoScroll.Enabled" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="Settings.AutoScroll.Smooth" xml:space="preserve">
+    <value>Gulir Halus</value>
+  </data>
+  <data name="Settings.Edit.StopButtonBehavior" xml:space="preserve">
+    <value>Perilaku Tombol Stop</value>
+  </data>
+  <data name="Settings.Edit.StopButtonBehavior.Desc" xml:space="preserve">
+    <value>Atur apa yang terjadi saat tombol stop ditekan selama dan setelah pemutaran.</value>
+  </data>
+  <data name="Settings.StopButton.StartTickSelectedPartZero" xml:space="preserve">
+    <value>Tick Awal → Part Terpilih → 0 (Bawaan)</value>
+  </data>
+  <data name="Settings.StopButton.StartTickZero" xml:space="preserve">
+    <value>Tick Awal → 0</value>
+  </data>
+  <data name="Settings.StopButton.AlwaysZero" xml:space="preserve">
+    <value>Selalu ke 0</value>
+  </data>
+  <data name="Settings.Render.DiffSingerParams" xml:space="preserve">
+    <value>Parameter Inferensi DiffSinger</value>
+  </data>
+  <data name="Settings.Render.AcousticSteps" xml:space="preserve">
+    <value>Langkah Model Akustik</value>
+  </data>
+  <data name="Settings.Render.AcousticSteps.Desc" xml:space="preserve">
+    <value>Mengatur kualitas inferensi model akustik. Nilai lebih tinggi menghasilkan kualitas lebih baik tetapi lebih lambat (disarankan: 5-20)</value>
+  </data>
+  <data name="Settings.Render.VarianceSteps" xml:space="preserve">
+    <value>Langkah Model Variance</value>
+  </data>
+  <data name="Settings.Render.VarianceSteps.Desc" xml:space="preserve">
+    <value>Mengatur kualitas inferensi model variance/ekspresivitas (disarankan: 5-20)</value>
+  </data>
+  <data name="Settings.Render.PitchSteps" xml:space="preserve">
+    <value>Langkah Model Pitch</value>
+  </data>
+  <data name="Settings.Render.PitchSteps.Desc" xml:space="preserve">
+    <value>Mengatur kualitas inferensi model pitch (disarankan: 5-20)</value>
+  </data>
+  <data name="Settings.Render.PreRender" xml:space="preserve">
+    <value>Pra-Render</value>
+  </data>
+  <data name="Settings.Render.PreRender.Desc" xml:space="preserve">
+    <value>Merender audio lebih awal di latar belakang agar pemutaran lebih mulus</value>
+  </data>
+  <data name="Settings.Render.ThreadCount" xml:space="preserve">
+    <value>Jumlah Thread Render</value>
+  </data>
+  <data name="Settings.Render.ThreadCount.Desc" xml:space="preserve">
+    <value>Jumlah thread render yang berjalan bersamaan. Sesuaikan dengan jumlah core CPU (disarankan: 2-4)</value>
+  </data>
+  <data name="Settings.Render.AudioOutput" xml:space="preserve">
+    <value>Output Audio</value>
+  </data>
+  <data name="Settings.Render.OnnxRunner" xml:space="preserve">
+    <value>Backend Runner ML</value>
+  </data>
+  <data name="Settings.Render.OnnxRunner.Desc" xml:space="preserve">
+    <value>Pilih backend eksekusi ONNX Runtime untuk model machine learning.</value>
+  </data>
+  <data name="Settings.Render.OnnxDevice" xml:space="preserve">
+    <value>Perangkat Keras</value>
+  </data>
+  <data name="Settings.Render.OnnxDevice.Desc" xml:space="preserve">
+    <value>Pilih GPU yang dipakai backend perangkat keras ONNX saat ini. Mulai ulang aplikasi untuk menerapkan.</value>
+  </data>
+  <data name="Settings.Render.OnnxRunner.NnapiWarning" xml:space="preserve">
+    <value>Sebagian perangkat tidak mendukung akselerasi perangkat keras. Memilih NNAPI dapat menyebabkan crash.</value>
+  </data>
+  <data name="Settings.Render.AudioBackend" xml:space="preserve">
+    <value>Backend Audio</value>
+  </data>
+  <data name="Settings.Render.AudioBackend.Desc" xml:space="preserve">
+    <value>Pilih backend output audio. Otomatis akan memilih backend terbaik untuk platform</value>
+  </data>
+  <data name="Settings.Render.OutputDevice" xml:space="preserve">
+    <value>Perangkat Output</value>
+  </data>
+  <data name="Settings.Render.OutputDevice.Desc" xml:space="preserve">
+    <value>Pilih perangkat output audio</value>
+  </data>
+  <data name="Settings.Render.AudioBackend.RestartRequired" xml:space="preserve">
+    <value>Mengubah backend audio memerlukan aplikasi dimulai ulang</value>
+  </data>
+  <data name="Settings.Audio.DefaultDevice" xml:space="preserve">
+    <value>Perangkat Bawaan</value>
+  </data>
+  <data name="Settings.Audio.AutoSelect" xml:space="preserve">
+    <value>Otomatis</value>
+  </data>
+  <data name="Settings.Audio.Dummy" xml:space="preserve">
+    <value>Senyap (Dummy)</value>
+  </data>
+  <data name="Settings.Audio.Device" xml:space="preserve">
+    <value>Perangkat {0}</value>
+  </data>
+  <data name="Settings.File.AdditionalSingerPath" xml:space="preserve">
+    <value>Lokasi Penyanyi Tambahan</value>
+  </data>
+  <data name="Settings.File.AdditionalSingerPath.Desc" xml:space="preserve">
+    <value>Tentukan direktori tambahan untuk mencari penyanyi.</value>
+  </data>
+  <data name="Settings.File.AdditionalSingerPath.Change" xml:space="preserve">
+    <value>Ubah</value>
+  </data>
+  <data name="Settings.File.Cache" xml:space="preserve">
+    <value>Cache Aplikasi</value>
+  </data>
+  <data name="Settings.File.Cache.Desc" xml:space="preserve">
+    <value>Menghapus hasil render, berkas sementara, dan data lain di direktori cache. Berkas dapat dibuat ulang saat dipakai.</value>
+  </data>
+  <data name="Settings.File.Cache.Clear" xml:space="preserve">
+    <value>Bersihkan Cache</value>
+  </data>
+  <data name="Settings.File.Cache.Size" xml:space="preserve">
+    <value>Ukuran cache saat ini</value>
+  </data>
+  <data name="Settings.Appearance.Theme" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Settings.Appearance.Theme.Desc" xml:space="preserve">
+    <value>Pilih terang, gelap, atau ikuti tema sistem.</value>
+  </data>
+  <data name="Settings.Appearance.Theme.System" xml:space="preserve">
+    <value>Ikuti Sistem</value>
+  </data>
+  <data name="Settings.Appearance.Theme.Light" xml:space="preserve">
+    <value>Terang</value>
+  </data>
+  <data name="Settings.Appearance.Theme.Dark" xml:space="preserve">
+    <value>Gelap</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor" xml:space="preserve">
+    <value>Warna Tema</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.Desc" xml:space="preserve">
+    <value>Ikuti warna aksen sistem atau pilih warna dasar kustom.</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.Mode.FollowSystem" xml:space="preserve">
+    <value>Ikuti Sistem</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.Mode.Custom" xml:space="preserve">
+    <value>Kustom</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.OpenPicker" xml:space="preserve">
+    <value>Pemilih</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.ResetDefault" xml:space="preserve">
+    <value>Atur Ulang</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.Presets" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.Picker.Title" xml:space="preserve">
+    <value>Pemilih Warna Tema</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.Picker.Hue" xml:space="preserve">
+    <value>Rona</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.Picker.Saturation" xml:space="preserve">
+    <value>Saturasi</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.Picker.Value" xml:space="preserve">
+    <value>Nilai</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.InvalidHex" xml:space="preserve">
+    <value>Warna HEX tidak valid. Gunakan #RRGGBB.</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.FallbackToSystem" xml:space="preserve">
+    <value>Warna kustom tidak valid, kembali ke aksen sistem.</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.SystemUnavailable" xml:space="preserve">
+    <value>Aksen sistem tidak tersedia, memakai warna cadangan.</value>
+  </data>
+  <data name="Settings.Appearance.ThemeColor.Source" xml:space="preserve">
+    <value>Sumber warna</value>
+  </data>
+  <data name="Settings.Appearance.Language" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="Settings.Appearance.Language.Desc" xml:space="preserve">
+    <value>Bahasa tampilan UI.</value>
+  </data>
+  <data name="Settings.Appearance.Language.FollowSystem" xml:space="preserve">
+    <value>Ikuti Sistem</value>
+  </data>
+  <data name="FilePicker.Empty" xml:space="preserve">
+    <value>Folder ini kosong</value>
+  </data>
+  <data name="FilePicker.NoMatch" xml:space="preserve">
+    <value>Tidak ada berkas yang cocok dengan filter</value>
+  </data>
+  <data name="FilePicker.AccessDenied" xml:space="preserve">
+    <value>Akses ke folder ini ditolak</value>
+  </data>
+  <data name="FilePicker.GoUp" xml:space="preserve">
+    <value>Ke folder induk</value>
+  </data>
+  <data name="FilePicker.SelectFolder" xml:space="preserve">
+    <value>Pilih Folder Ini</value>
+  </data>
+  <data name="FilePicker.FileName" xml:space="preserve">
+    <value>Nama Berkas</value>
+  </data>
+  <data name="FilePicker.FileNameHint" xml:space="preserve">
+    <value>Masukkan nama berkas…</value>
+  </data>
+  <data name="FilePicker.Save" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="FilePicker.OpenProject" xml:space="preserve">
+    <value>Buka Berkas Proyek</value>
+  </data>
+  <data name="FilePicker.SaveProjectAs" xml:space="preserve">
+    <value>Simpan Proyek Sebagai</value>
+  </data>
+  <data name="FilePicker.DefaultProjectName" xml:space="preserve">
+    <value>Proyek Baru</value>
+  </data>
+  <data name="FilePicker.OverwriteWarning" xml:space="preserve">
+    <value>Berkas dengan nama yang sama sudah ada di folder ini dan akan ditimpa.</value>
+  </data>
+  <data name="FilePicker.ImportAudio" xml:space="preserve">
+    <value>Impor Audio</value>
+  </data>
+  <data name="FilePicker.ImportMIDI" xml:space="preserve">
+    <value>Impor MIDI</value>
+  </data>
+  <data name="FilePicker.SelectSingerFile" xml:space="preserve">
+    <value>Pilih Berkas Penyanyi</value>
+  </data>
+  <data name="FilePicker.SelectSF2" xml:space="preserve">
+    <value>Pilih Berkas SoundFont</value>
+  </data>
+  <data name="FilePicker.SelectSingerDir" xml:space="preserve">
+    <value>Pilih Direktori Penyanyi Tambahan</value>
+  </data>
+  <data name="Home.Action.New" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="Home.Action.Open" xml:space="preserve">
+    <value>Buka</value>
+  </data>
+  <data name="Home.Action.Singers" xml:space="preserve">
+    <value>Penyanyi</value>
+  </data>
+  <data name="Home.Action.Options" xml:space="preserve">
+    <value>Opsi</value>
+  </data>
+  <data name="Home.Title" xml:space="preserve">
+    <value>Beranda</value>
+  </data>
+  <data name="Home.Recent.Title" xml:space="preserve">
+    <value>Terbaru</value>
+  </data>
+  <data name="Home.Recent.Empty" xml:space="preserve">
+    <value>Belum ada proyek terbaru</value>
+  </data>
+  <data name="Home.Recent.Remove" xml:space="preserve">
+    <value>Hapus dari daftar</value>
+  </data>
+  <data name="Home.Brand.Name" xml:space="preserve">
+    <value>OpenUtau Mobile</value>
+  </data>
+  <data name="Home.Recovery.Message" xml:space="preserve">
+    <value>Dipulihkan dari penutupan tidak normal: </value>
+  </data>
+  <data name="Home.Recovery.Open" xml:space="preserve">
+    <value> Ketuk untuk membuka</value>
+  </data>
+  <data name="Home.Recovery.OpenAction" xml:space="preserve">
+    <value>Buka</value>
+  </data>
+  <data name="Home.Recovery.Dismiss" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="Home.Toast.BackToExit" xml:space="preserve">
+    <value>Tekan kembali sekali lagi untuk keluar</value>
+  </data>
+  <data name="SingerDetail.Title" xml:space="preserve">
+    <value>Detail Penyanyi</value>
+  </data>
+  <data name="SingerDetail.OpenWeb" xml:space="preserve">
+    <value>Buka Situs Web</value>
+  </data>
+  <data name="SingerDetail.Details" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="SingerDetail.Author" xml:space="preserve">
+    <value>Pembuat</value>
+  </data>
+  <data name="SingerDetail.Voice" xml:space="preserve">
+    <value>Pengisi Suara</value>
+  </data>
+  <data name="SingerDetail.Website" xml:space="preserve">
+    <value>Situs Web</value>
+  </data>
+  <data name="SingerDetail.DefaultPhonemizer" xml:space="preserve">
+    <value>Phonemizer Bawaan</value>
+  </data>
+  <data name="SingerDetail.OtherInfo" xml:space="preserve">
+    <value>Info Lainnya</value>
+  </data>
+  <data name="SingerDetail.Location" xml:space="preserve">
+    <value>Lokasi Penyimpanan</value>
+  </data>
+  <data name="SingerDetail.DangerZone" xml:space="preserve">
+    <value>Zona Bahaya</value>
+  </data>
+  <data name="SingerDetail.DeleteWarning" xml:space="preserve">
+    <value>Menghapus penyanyi ini akan menghapus permanen semua berkas terkait. Tindakan ini tidak dapat dibatalkan.</value>
+  </data>
+  <data name="SingerDetail.Delete" xml:space="preserve">
+    <value>Hapus Penyanyi</value>
+  </data>
+  <data name="SingerDetail.Uninstalling" xml:space="preserve">
+    <value>Mencopot penyanyi…</value>
+  </data>
+  <data name="SingerDetail.UninstallSucceeded" xml:space="preserve">
+    <value>{0} dicopot</value>
+  </data>
+  <data name="SingerDetail.UninstallFailed" xml:space="preserve">
+    <value>Gagal mencopot {0}.</value>
+  </data>
+  <data name="SingerDetail.UninstallConfirmTitle" xml:space="preserve">
+    <value>Copot penyanyi?</value>
+  </data>
+  <data name="SingerDetail.UninstallConfirmMessage" xml:space="preserve">
+    <value>Copot {0} dan hapus permanen semua berkasnya? Tindakan ini tidak dapat dibatalkan.</value>
+  </data>
+  <data name="Editor.Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="Editor.Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="Editor.More" xml:space="preserve">
+    <value>Lainnya</value>
+  </data>
+  <data name="Editor.Quantize" xml:space="preserve">
+    <value>Kuantisasi (Global)</value>
+  </data>
+  <data name="Editor.Quantize.Auto" xml:space="preserve">
+    <value>Otomatis</value>
+  </data>
+  <data name="Editor.Quantize.Off" xml:space="preserve">
+    <value>Mati</value>
+  </data>
+  <data name="Editor.NormalMode" xml:space="preserve">
+    <value>Mode Normal</value>
+  </data>
+  <data name="Editor.MultiSelectMode" xml:space="preserve">
+    <value>Mode Multi-Pilih</value>
+  </data>
+  <data name="Editor.Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Editor.PlayPause" xml:space="preserve">
+    <value>Putar/Jeda</value>
+  </data>
+  <data name="Editor.Save" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="Editor.Saved" xml:space="preserve">
+    <value>Tersimpan</value>
+  </data>
+  <data name="Editor.ToggleTrackHeader" xml:space="preserve">
+    <value>Buka/Tutup Header Trek</value>
+  </data>
+  <data name="Editor.NoEditingPart" xml:space="preserve">
+    <value>Tidak ada part yang sedang diedit</value>
+  </data>
+  <data name="Editor.Rendering" xml:space="preserve">
+    <value>Merender...</value>
+  </data>
+  <data name="Editor.Undone" xml:space="preserve">
+    <value>Dibatalkan</value>
+  </data>
+  <data name="Editor.Redone" xml:space="preserve">
+    <value>Diulangi</value>
+  </data>
+  <data name="Editor.NewPart" xml:space="preserve">
+    <value>Part Baru</value>
+  </data>
+  <data name="Editor.LoadingProject" xml:space="preserve">
+    <value>Memuat proyek...</value>
+  </data>
+  <data name="Editor.ProjectLoaded" xml:space="preserve">
+    <value>Proyek dimuat</value>
+  </data>
+  <data name="Editor.Action.Rename" xml:space="preserve">
+    <value>Ganti Nama</value>
+  </data>
+  <data name="Editor.Action.Split" xml:space="preserve">
+    <value>Pisah</value>
+  </data>
+  <data name="Editor.Action.AddTimeSig" xml:space="preserve">
+    <value>Tambah Birama</value>
+  </data>
+  <data name="Editor.Action.AddTempo" xml:space="preserve">
+    <value>Tambah Tanda Tempo</value>
+  </data>
+  <data name="Editor.Action.PrevTimeSig" xml:space="preserve">
+    <value>Ke Birama Sebelumnya</value>
+  </data>
+  <data name="Editor.Action.NextTimeSig" xml:space="preserve">
+    <value>Ke Birama Berikutnya</value>
+  </data>
+  <data name="Editor.Action.PrevTempo" xml:space="preserve">
+    <value>Ke Tanda Tempo Sebelumnya</value>
+  </data>
+  <data name="Editor.Action.NextTempo" xml:space="preserve">
+    <value>Ke Tanda Tempo Berikutnya</value>
+  </data>
+  <data name="Editor.Action.DeleteTimeSig" xml:space="preserve">
+    <value>Hapus Birama</value>
+  </data>
+  <data name="Editor.Action.DeleteTempo" xml:space="preserve">
+    <value>Hapus Tanda Tempo</value>
+  </data>
+  <data name="PianoRoll.DragSelect" xml:space="preserve">
+    <value>Geser/Pilih</value>
+  </data>
+  <data name="PianoRoll.MultiSelect" xml:space="preserve">
+    <value>Multi-Pilih</value>
+  </data>
+  <data name="PianoRoll.NotePen" xml:space="preserve">
+    <value>Pena Not</value>
+  </data>
+  <data name="PianoRoll.PitchPen" xml:space="preserve">
+    <value>Pena Pitch</value>
+  </data>
+  <data name="PianoRoll.Anchor" xml:space="preserve">
+    <value>Jangkar</value>
+  </data>
+  <data name="PianoRoll.Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="PianoRoll.Action.Properties" xml:space="preserve">
+    <value>Properti</value>
+  </data>
+  <data name="PianoRoll.Action.SelectionStart" xml:space="preserve">
+    <value>Mulai Seleksi</value>
+  </data>
+  <data name="PianoRoll.Action.SelectionEnd" xml:space="preserve">
+    <value>Akhiri Seleksi</value>
+  </data>
+  <data name="PianoRoll.Action.Split" xml:space="preserve">
+    <value>Pisahkan not</value>
+  </data>
+  <data name="PianoRoll.Action.Merge" xml:space="preserve">
+    <value>Gabung</value>
+  </data>
+  <data name="PianoRoll.Action.SwitchToPitchPen" xml:space="preserve">
+    <value>Ganti ke Pena Pitch</value>
+  </data>
+  <data name="PianoRoll.Action.SwitchToEraser" xml:space="preserve">
+    <value>Ganti ke Penghapus</value>
+  </data>
+  <data name="PianoRoll.Action.AddControlPoint" xml:space="preserve">
+    <value>Tambah Titik Kontrol di Playhead</value>
+  </data>
+  <data name="PianoRoll.Action.Previous" xml:space="preserve">
+    <value>Sebelumnya</value>
+  </data>
+  <data name="PianoRoll.Action.Next" xml:space="preserve">
+    <value>Berikutnya</value>
+  </data>
+  <data name="PianoRoll.Action.ControlPointShape" xml:space="preserve">
+    <value>Bentuk Titik Kontrol</value>
+  </data>
+  <data name="PianoRoll.Action.ToggleFirstAnchorSnap" xml:space="preserve">
+    <value>Alihkan Snap Jangkar Pertama</value>
+  </data>
+  <data name="PianoRoll.Toast.AnchorShape" xml:space="preserve">
+    <value>Bentuk jangkar: {0}</value>
+  </data>
+  <data name="PianoRoll.AnchorShape.EaseInOut" xml:space="preserve">
+    <value>Ease in/out</value>
+  </data>
+  <data name="PianoRoll.AnchorShape.Linear" xml:space="preserve">
+    <value>Linear</value>
+  </data>
+  <data name="PianoRoll.AnchorShape.EaseIn" xml:space="preserve">
+    <value>Ease in</value>
+  </data>
+  <data name="PianoRoll.AnchorShape.EaseOut" xml:space="preserve">
+    <value>Ease out</value>
+  </data>
+  <data name="PianoRoll.Toast.FirstAnchorSnapEnabled" xml:space="preserve">
+    <value>Snap jangkar pertama aktif</value>
+  </data>
+  <data name="PianoRoll.Toast.FirstAnchorSnapDisabled" xml:space="preserve">
+    <value>Snap jangkar pertama nonaktif</value>
+  </data>
+  <data name="PianoRoll.Action.ResetVibrato" xml:space="preserve">
+    <value>Reset Vibrato</value>
+  </data>
+  <data name="PianoRoll.Action.AddVibrato" xml:space="preserve">
+    <value>Tambah Vibrato</value>
+  </data>
+  <data name="PianoRoll.Action.VibratoPreset" xml:space="preserve">
+    <value>Preset Vibrato</value>
+  </data>
+  <data name="PianoRoll.Toast.Vibrato" xml:space="preserve">
+    <value>Mode vibrato</value>
+  </data>
+  <data name="PianoRoll.Toast.PitchEraser" xml:space="preserve">
+    <value>Mode penghapus pitch</value>
+  </data>
+  <data name="PianoRoll.Toast.PitchPen" xml:space="preserve">
+    <value>Mode pena pitch</value>
+  </data>
+  <data name="PianoRoll.Toast.AnchorEdit" xml:space="preserve">
+    <value>Mode edit jangkar pitch</value>
+  </data>
+  <data name="PianoRoll.Toast.DragMode" xml:space="preserve">
+    <value>Mode geser</value>
+  </data>
+  <data name="PianoRoll.Toast.MultiSelectMode" xml:space="preserve">
+    <value>Mode multi-pilih</value>
+  </data>
+  <data name="PianoRoll.Toast.NoteMode" xml:space="preserve">
+    <value>Mode not</value>
+  </data>
+  <data name="PianoRoll.Toast.VibratoNotReady" xml:space="preserve">
+    <value>Mode vibrato belum tersedia</value>
+  </data>
+  <data name="PianoRoll.Selection.EndTip" xml:space="preserve">
+    <value>Tekan "|◀" untuk mengakhiri seleksi</value>
+  </data>
+  <data name="PianoRoll.Selection.Cut" xml:space="preserve">
+    <value>{0} not dipotong</value>
+  </data>
+  <data name="PianoRoll.Selection.Pasted" xml:space="preserve">
+    <value>{0} not ditempel</value>
+  </data>
+  <data name="PianoRoll.Toast.NotePropertiesNotImpl" xml:space="preserve">
+    <value>Editor properti not belum diimplementasikan</value>
+  </data>
+  <data name="PianoRoll.Toast.ControlPointNotFound" xml:space="preserve">
+    <value>Daftar titik kontrol untuk penyisipan tidak ditemukan</value>
+  </data>
+  <data name="PianoRoll.Undone" xml:space="preserve">
+    <value>Dibatalkan</value>
+  </data>
+  <data name="PianoRoll.Redone" xml:space="preserve">
+    <value>Diulangi</value>
+  </data>
+  <data name="SingerManagement.Title" xml:space="preserve">
+    <value>Manajemen Penyanyi</value>
+  </data>
+  <data name="SingerManagement.Install" xml:space="preserve">
+    <value>Pasang Penyanyi</value>
+  </data>
+  <data name="DependencyManager.Title" xml:space="preserve">
+    <value>Manajemen Dependensi</value>
+  </data>
+  <data name="LoadingPopup.Title" xml:space="preserve">
+    <value>Mohon tunggu</value>
+  </data>
+  <data name="LoadingPopup.DefaultMessage" xml:space="preserve">
+    <value>Bekerja di latar belakang…</value>
+  </data>
+  <data name="DependencyManager.Refresh" xml:space="preserve">
+    <value>Muat Ulang Daftar</value>
+  </data>
+  <data name="DependencyManager.InstallFromFile" xml:space="preserve">
+    <value>Pasang dari Berkas</value>
+  </data>
+  <data name="DependencyManager.Available" xml:space="preserve">
+    <value>Tersedia</value>
+  </data>
+  <data name="DependencyManager.InstalledTab" xml:space="preserve">
+    <value>Terpasang</value>
+  </data>
+  <data name="DependencyManager.Search" xml:space="preserve">
+    <value>Cari paket...</value>
+  </data>
+  <data name="DependencyManager.LoadingAvailable" xml:space="preserve">
+    <value>Memuat paket yang tersedia...</value>
+  </data>
+  <data name="DependencyManager.NoAvailable" xml:space="preserve">
+    <value>Tidak ada paket tersedia</value>
+  </data>
+  <data name="DependencyManager.LoadingInstalled" xml:space="preserve">
+    <value>Memuat paket terpasang...</value>
+  </data>
+  <data name="DependencyManager.NoInstalled" xml:space="preserve">
+    <value>Belum ada paket terpasang</value>
+  </data>
+  <data name="DependencyManager.Uninstalling" xml:space="preserve">
+    <value>Mencopot...</value>
+  </data>
+  <data name="DependencyManager.UnknownDeveloper" xml:space="preserve">
+    <value>Pengembang tidak diketahui</value>
+  </data>
+  <data name="DependencyManager.Installing" xml:space="preserve">
+    <value>Memasang...</value>
+  </data>
+  <data name="DependencyManager.Toast.LoadFailed" xml:space="preserve">
+    <value>Gagal memuat: {0}</value>
+  </data>
+  <data name="DependencyManager.Toast.InstalledListFailed" xml:space="preserve">
+    <value>Gagal memuat daftar terpasang: {0}</value>
+  </data>
+  <data name="DependencyManager.FilePicker.SelectPackage" xml:space="preserve">
+    <value>Pilih paket dependensi</value>
+  </data>
+  <data name="DependencyManager.Loading.InstallFromFile" xml:space="preserve">
+    <value>Memasang paket dependensi…</value>
+  </data>
+  <data name="DependencyManager.Toast.InstallFromFileSuccess" xml:space="preserve">
+    <value>Paket dependensi "{0}" terpasang</value>
+  </data>
+  <data name="DependencyManager.Error.InvalidPackage" xml:space="preserve">
+    <value>Berkas yang dipilih bukan paket dependensi yang valid atau rusak.</value>
+  </data>
+  <data name="DependencyManager.Error.AccessDenied" xml:space="preserve">
+    <value>Tidak dapat membaca paket atau menulis ke penyimpanan dependensi. Periksa izin penyimpanan.</value>
+  </data>
+  <data name="DependencyManager.Error.FileUnavailable" xml:space="preserve">
+    <value>Paket yang dipilih tidak lagi tersedia. Pilih berkas lagi.</value>
+  </data>
+  <data name="DependencyManager.Error.Storage" xml:space="preserve">
+    <value>Tidak dapat memasang paket. Periksa ruang penyimpanan dan apakah berkas sedang dipakai.</value>
+  </data>
+  <data name="DependencyManager.Toast.Uninstalled" xml:space="preserve">
+    <value>{0} dicopot</value>
+  </data>
+  <data name="DependencyManager.Toast.UninstallFailed" xml:space="preserve">
+    <value>Gagal mencopot: {0}</value>
+  </data>
+  <data name="DependencyManager.Toast.InstallSuccess" xml:space="preserve">
+    <value>{0} terpasang</value>
+  </data>
+  <data name="DependencyManager.Toast.InstallFailed" xml:space="preserve">
+    <value>Gagal memasang: {0}</value>
+  </data>
+  <data name="Options.Title" xml:space="preserve">
+    <value>Opsi</value>
+  </data>
+  <data name="Options.Settings" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="Options.Settings.Desc" xml:space="preserve">
+    <value>Bahasa, audio, tampilan…</value>
+  </data>
+  <data name="Options.DependencyManager" xml:space="preserve">
+    <value>Manajemen Dependensi</value>
+  </data>
+  <data name="Options.DependencyManager.Desc" xml:space="preserve">
+    <value>Pasang dan kelola voice bank, fonem, dan dependensi</value>
+  </data>
+  <data name="Options.Help" xml:space="preserve">
+    <value>Bantuan &amp; Tutorial</value>
+  </data>
+  <data name="Options.Help.Desc" xml:space="preserve">
+    <value>Lihat panduan pengguna dan FAQ</value>
+  </data>
+  <data name="Options.ExportLog" xml:space="preserve">
+    <value>Ekspor Log</value>
+  </data>
+  <data name="Options.ExportLog.Desc" xml:space="preserve">
+    <value>Ekspor dan bagikan log untuk pemecahan masalah</value>
+  </data>
+  <data name="Options.About" xml:space="preserve">
+    <value>Tentang</value>
+  </data>
+  <data name="Options.About.Desc" xml:space="preserve">
+    <value>Versi, lisensi, kredit</value>
+  </data>
+  <data name="Options.Toast.HelpNotImpl" xml:space="preserve">
+    <value>Halaman bantuan belum diimplementasikan</value>
+  </data>
+  <data name="Options.Toast.ExportLogNotImpl" xml:space="preserve">
+    <value>Ekspor log belum diimplementasikan</value>
+  </data>
+  <data name="About.Title" xml:space="preserve">
+    <value>Tentang</value>
+  </data>
+  <data name="About.Version" xml:space="preserve">
+    <value>Versi </value>
+  </data>
+  <data name="About.CoreVersion" xml:space="preserve">
+    <value>Versi Core </value>
+  </data>
+  <data name="About.BuildNumber" xml:space="preserve">
+    <value>Nomor build </value>
+  </data>
+  <data name="About.BuildTime" xml:space="preserve">
+    <value>Waktu build (UTC) </value>
+  </data>
+  <data name="About.BuildMachine" xml:space="preserve">
+    <value>Sistem build </value>
+  </data>
+  <data name="About.CommitId" xml:space="preserve">
+    <value>ID Commit </value>
+  </data>
+  <data name="About.ActionId" xml:space="preserve">
+    <value>ID run Action </value>
+  </data>
+  <data name="About.ProjectHome" xml:space="preserve">
+    <value>Beranda Proyek</value>
+  </data>
+  <data name="About.License" xml:space="preserve">
+    <value>Lisensi Sumber Terbuka</value>
+  </data>
+  <data name="About.Credits" xml:space="preserve">
+    <value>Kredit</value>
+  </data>
+  <data name="About.Credits.Desc" xml:space="preserve">
+    <value>Pustaka eksternal dan kontributor</value>
+  </data>
+  <data name="About.Contribute" xml:space="preserve">
+    <value>Bantu tingkatkan OpenUtau Mobile</value>
+  </data>
+  <data name="About.Contribute.Desc" xml:space="preserve">
+    <value>Laporkan Bug | Permintaan Fitur | Kontribusi Kode</value>
+  </data>
+  <data name="About.Toast.LicenseNotImpl" xml:space="preserve">
+    <value>Halaman lisensi belum diimplementasikan</value>
+  </data>
+  <data name="About.Toast.CreditsNotImpl" xml:space="preserve">
+    <value>Halaman kredit belum diimplementasikan</value>
+  </data>
+  <data name="About.Toast.OpenLinkNotImpl" xml:space="preserve">
+    <value>Buka tautan eksternal belum diimplementasikan</value>
+  </data>
+  <data name="About.Toast.OpenLinkFailed" xml:space="preserve">
+    <value>Gagal membuka tautan</value>
+  </data>
+  <data name="ErrorDialog.Title" xml:space="preserve">
+    <value>Error Runtime OpenUtau Mobile</value>
+  </data>
+  <data name="ErrorDialog.UnknownError" xml:space="preserve">
+    <value>Error tidak diketahui</value>
+  </data>
+  <data name="EditorMore.Title" xml:space="preserve">
+    <value>Aksi Lainnya</value>
+  </data>
+  <data name="EditorMore.SaveAs" xml:space="preserve">
+    <value>Simpan Sebagai</value>
+  </data>
+  <data name="EditorMore.ImportTab" xml:space="preserve">
+    <value>Impor</value>
+  </data>
+  <data name="EditorMore.ExportTab" xml:space="preserve">
+    <value>Ekspor</value>
+  </data>
+  <data name="EditorMore.ImportAudio" xml:space="preserve">
+    <value>Impor Audio</value>
+  </data>
+  <data name="EditorMore.ImportMIDI" xml:space="preserve">
+    <value>Impor MIDI</value>
+  </data>
+  <data name="EditorMore.ImportTrack" xml:space="preserve">
+    <value>Impor Trek</value>
+  </data>
+  <data name="EditorMore.ExportAudio" xml:space="preserve">
+    <value>Ekspor sebagai Audio</value>
+  </data>
+  <data name="EditorMore.Toast.ExportAudio" xml:space="preserve">
+    <value>TODO: ExportAudio</value>
+  </data>
+  <data name="ExportAudioPopup.Title" xml:space="preserve">
+    <value>Ekspor Audio</value>
+  </data>
+  <data name="ExportAudioPopup.PathLabel" xml:space="preserve">
+    <value>Lokasi Berkas Output</value>
+  </data>
+  <data name="ExportAudioPopup.PathPlaceholder" xml:space="preserve">
+    <value>Pilih lokasi berkas .wav untuk output.</value>
+  </data>
+  <data name="ExportAudioPopup.SelectPath" xml:space="preserve">
+    <value>Pilih Lokasi</value>
+  </data>
+  <data name="ExportAudioPopup.ModeLabel" xml:space="preserve">
+    <value>Mode Ekspor</value>
+  </data>
+  <data name="ExportAudioPopup.Mode.Mixdown" xml:space="preserve">
+    <value>Mixdown (Satu Berkas)</value>
+  </data>
+  <data name="ExportAudioPopup.Mode.Tracks" xml:space="preserve">
+    <value>Trek (Beberapa Berkas)</value>
+  </data>
+  <data name="ExportAudioPopup.Mode.TracksHint" xml:space="preserve">
+    <value>Ekspor trek menghasilkan beberapa berkas wav berdasarkan nama berkas yang dipilih.</value>
+  </data>
+  <data name="ExportAudioPopup.Start" xml:space="preserve">
+    <value>Mulai Ekspor</value>
+  </data>
+  <data name="ExportAudioPopup.Exporting" xml:space="preserve">
+    <value>Mengekspor, mohon tunggu...</value>
+  </data>
+  <data name="ExportAudioPopup.SaveDialogTitle" xml:space="preserve">
+    <value>Pilih Berkas Ekspor Audio</value>
+  </data>
+  <data name="ExportAudioPopup.PathRequired" xml:space="preserve">
+    <value>Pilih lokasi ekspor terlebih dahulu.</value>
+  </data>
+  <data name="ExportAudioPopup.Toast.Success.Mixdown" xml:space="preserve">
+    <value>Ekspor mixdown selesai.</value>
+  </data>
+  <data name="ExportAudioPopup.Toast.Success.Tracks" xml:space="preserve">
+    <value>Ekspor trek selesai.</value>
+  </data>
+  <data name="ExportAudioPopup.Toast.Failed" xml:space="preserve">
+    <value>Ekspor audio gagal.</value>
+  </data>
+  <data name="Editor.BackConfirm.Title" xml:space="preserve">
+    <value>Keluar dari Editor</value>
+  </data>
+  <data name="Editor.BackConfirm.Message" xml:space="preserve">
+    <value>Ada perubahan yang belum disimpan pada proyek saat ini.</value>
+  </data>
+  <data name="Editor.BackConfirm.ExitWithoutSave" xml:space="preserve">
+    <value>Keluar Tanpa Menyimpan</value>
+  </data>
+  <data name="Editor.BackConfirm.SaveAndExit" xml:space="preserve">
+    <value>Simpan dan Keluar</value>
+  </data>
+  <data name="LyricEdit.Title" xml:space="preserve">
+    <value>Edit Lirik</value>
+  </data>
+  <data name="LyricEdit.Watermark" xml:space="preserve">
+    <value>Masukkan lirik</value>
+  </data>
+  <data name="LyricEdit.NoteInfo" xml:space="preserve">
+    <value>Not {0}/{1}</value>
+  </data>
+  <data name="LyricEdit.NextNote" xml:space="preserve">
+    <value>Not berikutnya: {0}</value>
+  </data>
+  <data name="LyricEdit.LastNote" xml:space="preserve">
+    <value>Ini not terakhir</value>
+  </data>
+  <data name="LyricEdit.PhoneticSource" xml:space="preserve"><value>Fonetik</value></data>
+  <data name="LyricEdit.NoSinger" xml:space="preserve"><value>Belum ada penyanyi yang ditetapkan atau dimuat</value></data>
+  <data name="LyricEdit.NoSuggestions" xml:space="preserve"><value>Tidak ada saran yang cocok</value></data>
+  <data name="Settings.Edit.DesktopMode" xml:space="preserve">
+    <value>Mode Desktop</value>
+  </data>
+  <data name="Settings.Edit.DesktopMode.Desc" xml:space="preserve">
+    <value>Pakai antarmuka desktop. Matikan untuk memakai antarmuka seluler. Mulai ulang untuk menerapkan.</value>
+  </data>
+  <data name="Settings.Edit.LyricsHelper" xml:space="preserve"><value>Pembantu lirik</value></data>
+  <data name="Settings.Edit.LyricsHelper.Desc" xml:space="preserve"><value>Ubah lirik yang diketik menjadi kana, romanisasi, atau fonem.</value></data>
+  <data name="Settings.Edit.LyricsHelper.Brackets" xml:space="preserve"><value>Sarankan juga hasil konversi dalam tanda kurung</value></data>
+  <data name="Picker.Singer.Title" xml:space="preserve">
+    <value>Pilih Penyanyi</value>
+  </data>
+  <data name="Picker.Phonemizer.Title" xml:space="preserve">
+    <value>Pilih Phonemizer</value>
+  </data>
+  <data name="Picker.Renderer.Title" xml:space="preserve">
+    <value>Pilih Renderer</value>
+  </data>
+  <data name="Picker.TrackRename.Title" xml:space="preserve">
+    <value>Ganti Nama Trek</value>
+  </data>
+  <data name="Picker.TrackRename.Placeholder" xml:space="preserve">
+    <value>Masukkan nama trek</value>
+  </data>
+  <data name="Picker.TrackColor.Title" xml:space="preserve">
+    <value>Pilih Warna Trek</value>
+  </data>
+  <data name="ProjectEdit.Tempo" xml:space="preserve">
+    <value>Edit Tempo</value>
+  </data>
+  <data name="ProjectEdit.TimeSignature" xml:space="preserve">
+    <value>Edit Birama</value>
+  </data>
+  <data name="ProjectEdit.KeySignature" xml:space="preserve">
+    <value>Edit Tanda Mi</value>
+  </data>
+  <data name="ProjectEdit.TempoLabel" xml:space="preserve">
+    <value>Tempo (BPM)</value>
+  </data>
+  <data name="ProjectEdit.TempoWatermark" xml:space="preserve">
+    <value>mis. 120</value>
+  </data>
+  <data name="ProjectEdit.Beats" xml:space="preserve">
+    <value>Ketukan (Pembilang)</value>
+  </data>
+  <data name="ProjectEdit.NoteValue" xml:space="preserve">
+    <value>Nilai Not (Penyebut)</value>
+  </data>
+  <data name="ProjectEdit.KeySignature.Hint" xml:space="preserve">
+    <value>Ketuk nama not untuk memilih</value>
+  </data>
+  <data name="ProjectEdit.Toast.BeatsValidation" xml:space="preserve">
+    <value>Ketukan harus bilangan bulat dari 1 sampai 32</value>
+  </data>
+  <data name="ProjectEdit.Toast.NoteValueValidation" xml:space="preserve">
+    <value>Nilai not harus 1/2/4/8/16/32</value>
+  </data>
+  <data name="Vibrato.Title" xml:space="preserve">
+    <value>Parameter Vibrato</value>
+  </data>
+  <data name="Vibrato.Depth" xml:space="preserve">
+    <value>Kedalaman</value>
+  </data>
+  <data name="Vibrato.Period" xml:space="preserve">
+    <value>Periode</value>
+  </data>
+  <data name="Vibrato.FadeIn" xml:space="preserve">
+    <value>Fade In</value>
+  </data>
+  <data name="Vibrato.FadeOut" xml:space="preserve">
+    <value>Fade Out</value>
+  </data>
+  <data name="Vibrato.Phase" xml:space="preserve">
+    <value>Fase</value>
+  </data>
+  <data name="Vibrato.Pitch" xml:space="preserve">
+    <value>Pitch</value>
+  </data>
+  <data name="Vibrato.VolLink" xml:space="preserve">
+    <value>Tautan Vol.</value>
+  </data>
+  <data name="Vibrato.Length" xml:space="preserve">
+    <value>Panjang</value>
+  </data>
+  <data name="TrackHeader.Singer" xml:space="preserve">
+    <value>Ganti Penyanyi</value>
+  </data>
+  <data name="TrackHeader.Phonemizer" xml:space="preserve">
+    <value>Ganti Phonemizer</value>
+  </data>
+  <data name="TrackHeader.Renderer" xml:space="preserve">
+    <value>Ganti Renderer</value>
+  </data>
+  <data name="TrackHeader.Rename" xml:space="preserve">
+    <value>Ganti Nama Trek</value>
+  </data>
+  <data name="TrackHeader.ChangeColor" xml:space="preserve">
+    <value>Ganti Warna Trek</value>
+  </data>
+  <data name="TrackHeader.Volume" xml:space="preserve">
+    <value>Volume (dB)</value>
+  </data>
+  <data name="TrackHeader.Pan" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="TrackHeader.Mute" xml:space="preserve">
+    <value>Alihkan Bisu</value>
+  </data>
+  <data name="TrackRename.Toast.Empty" xml:space="preserve">
+    <value>Nama trek tidak boleh kosong</value>
+  </data>
+  <data name="TrackAdder.AddTrack" xml:space="preserve">
+    <value>Tambah Trek</value>
+  </data>
+  <data name="ContextAction.ToggleExpand" xml:space="preserve">
+    <value>Buka/Tutup Aksi</value>
+  </data>
+  <data name="SingerSetup.Title" xml:space="preserve">
+    <value>Wizard Pemasangan Penyanyi</value>
+  </data>
+  <data name="SingerSetup.Step1.Title" xml:space="preserve">
+    <value>Pilih Berkas Arsip</value>
+  </data>
+  <data name="SingerSetup.Step1.Desc" xml:space="preserve">
+    <value>Pilih berkas ZIP, RAR, UAR, atau arsip lain yang berisi data penyanyi</value>
+  </data>
+  <data name="SingerSetup.Step1.ArchiveEncoding" xml:space="preserve">
+    <value>Encoding Arsip</value>
+  </data>
+  <data name="SingerSetup.Step1.Preview" xml:space="preserve">
+    <value>Pratinjau Isi Arsip:</value>
+  </data>
+  <data name="SingerSetup.Step2.Title" xml:space="preserve">
+    <value>Encoding Berkas Teks</value>
+  </data>
+  <data name="SingerSetup.Step2.Desc" xml:space="preserve">
+    <value>Pilih encoding yang benar untuk berkas teks. Lihat pratinjau untuk memastikan tampilannya</value>
+  </data>
+  <data name="SingerSetup.Step2.Preview" xml:space="preserve">
+    <value>Pratinjau Berkas Teks:</value>
+  </data>
+  <data name="SingerSetup.Step3.SingerType" xml:space="preserve">
+    <value>Jenis Penyanyi</value>
+  </data>
+  <data name="SingerSetup.Step3.ManualDesc" xml:space="preserve">
+    <value>Info penyanyi tidak lengkap. Pilih jenis penyanyi secara manual</value>
+  </data>
+  <data name="SingerSetup.Step3.SingerInfo" xml:space="preserve">
+    <value>Info Penyanyi</value>
+  </data>
+  <data name="SingerSetup.Step3.AutoDesc" xml:space="preserve">
+    <value>Info penyanyi terdeteksi otomatis. Konfirmasi untuk melanjutkan</value>
+  </data>
+  <data name="SingerSetup.Step3.TypeHelp" xml:space="preserve">
+    <value>Referensi Jenis Penyanyi</value>
+  </data>
+  <data name="SingerSetup.Step3.TypeUtau" xml:space="preserve">
+    <value>• utau: Penyanyi UTAU klasik (paling umum)</value>
+  </data>
+  <data name="SingerSetup.Step3.TypeEnunu" xml:space="preserve">
+    <value>• enunu: Memakai mesin sintesis ENUNU</value>
+  </data>
+  <data name="SingerSetup.Step3.TypeDiffSinger" xml:space="preserve">
+    <value>• diffsinger: Memakai mesin sintesis AI DiffSinger</value>
+  </data>
+  <data name="SingerSetup.Step3.TypeNeutrino" xml:space="preserve">
+    <value>• neutrino: Memakai mesin sintesis AI NEUTRINO v3</value>
+  </data>
+  <data name="SingerSetup.Step4.Title" xml:space="preserve">
+    <value>Ringkasan Pemasangan</value>
+  </data>
+  <data name="SingerSetup.Step4.Desc" xml:space="preserve">
+    <value>Periksa info pemasangan, lalu ketuk Pasang untuk melanjutkan</value>
+  </data>
+  <data name="SingerSetup.Step4.FileInfo" xml:space="preserve">
+    <value>Info Berkas</value>
+  </data>
+  <data name="SingerSetup.Step4.File" xml:space="preserve">
+    <value>Berkas: </value>
+  </data>
+  <data name="SingerSetup.Step4.EncodingInfo" xml:space="preserve">
+    <value>Info Encoding</value>
+  </data>
+  <data name="SingerSetup.Step4.ArchiveEncoding" xml:space="preserve">
+    <value>Encoding Arsip: </value>
+  </data>
+  <data name="SingerSetup.Step4.TextEncoding" xml:space="preserve">
+    <value>Encoding Berkas Teks: </value>
+  </data>
+  <data name="SingerSetup.Step4.Type" xml:space="preserve">
+    <value>Jenis: </value>
+  </data>
+  <data name="SingerSetup.ConfirmInstall" xml:space="preserve">
+    <value>Konfirmasi Pemasangan</value>
+  </data>
+  <data name="SingerSetup.Success" xml:space="preserve">
+    <value>Pemasangan Selesai</value>
+  </data>
+  <data name="SingerSetup.Success.Desc" xml:space="preserve">
+    <value>Penyanyi berhasil dipasang. Sekarang bisa dipakai di editor</value>
+  </data>
+  <data name="SingerSetup.Failed" xml:space="preserve">
+    <value>Pemasangan Gagal</value>
+  </data>
+  <data name="SingerSetup.Error.Encrypted" xml:space="preserve">
+    <value>Arsip terenkripsi tidak didukung</value>
+  </data>
+  <data name="SingerSetup.Installing" xml:space="preserve">
+    <value>Menyiapkan pemasangan...</value>
+  </data>
+  <data name="SingerSetup.InstallComplete" xml:space="preserve">
+    <value>Pemasangan selesai</value>
+  </data>
+  <data name="SingerSetup.InstallFailed" xml:space="preserve">
+    <value>Pemasangan gagal: {0}</value>
+  </data>
+  <data name="SingerSetup.StepFormat" xml:space="preserve">
+    <value>Langkah {0} / 4</value>
+  </data>
+  <data name="Splash.DocManager" xml:space="preserve">
+    <value>Menginisialisasi document manager</value>
+  </data>
+  <data name="Splash.Phonemizer" xml:space="preserve">
+    <value>Memuat plugin phonemizer</value>
+  </data>
+  <data name="Splash.ToolManager" xml:space="preserve">
+    <value>Menginisialisasi tool manager</value>
+  </data>
+  <data name="Splash.SingerManager" xml:space="preserve">
+    <value>Menginisialisasi singer manager</value>
+  </data>
+  <data name="Splash.AudioBackend" xml:space="preserve">
+    <value>Menginisialisasi backend audio</value>
+  </data>
+  <data name="Splash.Localization" xml:space="preserve">
+    <value>Menginisialisasi lokalisasi</value>
+  </data>
+  <data name="Splash.Complete" xml:space="preserve">
+    <value>Inisialisasi selesai</value>
+  </data>
+  <data name="SingerManagement.VogenNotImplemented" xml:space="preserve">
+    <value>Wizard pemasangan penyanyi Vogen belum diimplementasikan, silakan pasang secara manual</value>
+  </data>
+  <data name="ProjectEdit.BpmRange" xml:space="preserve">
+    <value>BPM harus bernilai antara 10 dan 1000</value>
+  </data>
+  <data name="PianoRoll.PortraitLoadFailed" xml:space="preserve">
+    <value>Gagal memuat potret</value>
+  </data>
+  <data name="Editor.Action.Merge" xml:space="preserve">
+    <value>Gabung</value>
+  </data>
+  <data name="SetupWizard.Title" xml:space="preserve">
+    <value>Wizard Pengaturan</value>
+  </data>
+  <data name="SetupWizard.Step0.Title" xml:space="preserve">
+    <value>Selamat Datang</value>
+  </data>
+  <data name="SetupWizard.Step0.Desc" xml:space="preserve">
+    <value>OpenUtau Mobile adalah editor sintesis nyanyian lintas platform yang mendukung UTAU, DiffSinger, Vogen, dan lainnya. Mari luangkan semenit untuk pengaturan dasar agar kamu bisa mulai berkarya.</value>
+  </data>
+  <data name="SetupWizard.Step0.Skip" xml:space="preserve">
+    <value>Lewati Pengaturan</value>
+  </data>
+  <data name="SetupWizard.Step1.Title" xml:space="preserve">
+    <value>Izin Penyimpanan</value>
+  </data>
+  <data name="SetupWizard.Step1.Desc" xml:space="preserve">
+    <value>Izin berikut membantu aplikasi bekerja dengan benar. Kamu tetap bisa memakai fitur terbatas tanpa memberikannya.</value>
+  </data>
+  <data name="SetupWizard.Step1.Card.Storage" xml:space="preserve">
+    <value>Penyimpanan Berkas</value>
+  </data>
+  <data name="SetupWizard.Step1.Card.Storage.Desc" xml:space="preserve">
+    <value>Dipakai untuk membaca pustaka penyanyi dan membuka/menyimpan berkas proyek.</value>
+  </data>
+  <data name="SetupWizard.Step1.Grant" xml:space="preserve">
+    <value>Izinkan</value>
+  </data>
+  <data name="SetupWizard.Step1.PermissionGranted" xml:space="preserve">
+    <value>Diizinkan</value>
+  </data>
+  <data name="SetupWizard.Step1.DesktopReady" xml:space="preserve">
+    <value>Platform kamu tidak memerlukan izin tambahan. Akses berkas siap.</value>
+  </data>
+  <data name="SetupWizard.Step2.Title" xml:space="preserve">
+    <value>Lokasi Penyimpanan Penyanyi</value>
+  </data>
+  <data name="SetupWizard.Step2.Desc" xml:space="preserve">
+    <value>Pilih cara menyimpan pustaka penyanyi. Bisa diubah kapan saja di Pengaturan.</value>
+  </data>
+  <data name="SetupWizard.Step2.Builtin" xml:space="preserve">
+    <value>Bawaan Aplikasi</value>
+  </data>
+  <data name="SetupWizard.Step2.Builtin.Desc" xml:space="preserve">
+    <value>Pakai direktori penyanyi bawaan yang disertakan aplikasi. Tidak perlu konfigurasi tambahan.</value>
+  </data>
+  <data name="SetupWizard.Step2.External" xml:space="preserve">
+    <value>Folder Eksternal</value>
+  </data>
+  <data name="SetupWizard.Step2.External.Desc" xml:space="preserve">
+    <value>Pilih folder kustom untuk menyimpan dan membaca penyanyi. Cocok untuk pengguna yang sudah punya voicebank UTAU.</value>
+  </data>
+  <data name="SetupWizard.Step2.Selected" xml:space="preserve">
+    <value>Dipilih</value>
+  </data>
+  <data name="SetupWizard.Step2.SelectFolder" xml:space="preserve">
+    <value>Pilih Folder</value>
+  </data>
+  <data name="SetupWizard.Step3.Title" xml:space="preserve">
+    <value>Pengaturan Selesai</value>
+  </data>
+  <data name="SetupWizard.Step3.Desc" xml:space="preserve">
+    <value>Kamu siap memakai OpenUtau Mobile!</value>
+  </data>
+  <data name="SetupWizard.Finish" xml:space="preserve">
+    <value>Selesai</value>
+  </data>
+  <data name="BatchEdit.Title" xml:space="preserve">
+    <value>Edit massal</value>
+  </data>
+  <data name="BatchEdit.Tab.Lyrics" xml:space="preserve">
+    <value>Lirik</value>
+  </data>
+  <data name="BatchEdit.Tab.Notes" xml:space="preserve">
+    <value>Not</value>
+  </data>
+  <data name="BatchEdit.Tab.Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="BatchEdit.Scope.Selected" xml:space="preserve">
+    <value>{0} not terpilih</value>
+  </data>
+  <data name="BatchEdit.Scope.Part" xml:space="preserve">
+    <value>Semua {0} not di part saat ini</value>
+  </data>
+  <data name="BatchEdit.Run" xml:space="preserve">
+    <value>Jalankan</value>
+  </data>
+  <data name="BatchEdit.Pin" xml:space="preserve">
+    <value>Sematkan</value>
+  </data>
+  <data name="BatchEdit.Unpin" xml:space="preserve">
+    <value>Lepas sematan</value>
+  </data>
+  <data name="BatchEdit.Pinned" xml:space="preserve">
+    <value>Tersemat</value>
+  </data>
+  <data name="BatchEdit.Confirm" xml:space="preserve">
+    <value>Konfirmasi</value>
+  </data>
+  <data name="BatchEdit.Parameter.Lyric" xml:space="preserve">
+    <value>Lirik</value>
+  </data>
+  <data name="BatchEdit.Parameter.Semitones" xml:space="preserve">
+    <value>Semiton</value>
+  </data>
+  <data name="BatchEdit.Parameter.Ticks" xml:space="preserve">
+    <value>Tick</value>
+  </data>
+  <data name="BatchEdit.Parameter.Ratio" xml:space="preserve">
+    <value>Rasio (0–1)</value>
+  </data>
+  <data name="BatchEdit.Parameter.Cents" xml:space="preserve">
+    <value>Cent maksimum</value>
+  </data>
+  <data name="BatchEdit.Validation.Required" xml:space="preserve">
+    <value>Masukkan nilai.</value>
+  </data>
+  <data name="BatchEdit.Validation.Number" xml:space="preserve">
+    <value>Masukkan angka valid dalam rentang yang diizinkan.</value>
+  </data>
+  <data name="BatchEdit.Validation.Confirm" xml:space="preserve">
+    <value>Operasi ini mengubah atau mereset data not. Pilih Konfirmasi untuk melanjutkan.</value>
+  </data>
+  <data name="BatchEdit.Status.Running" xml:space="preserve">
+    <value>Menjalankan {0}…</value>
+  </data>
+  <data name="BatchEdit.Status.Progress" xml:space="preserve">
+    <value>{0} / {1}</value>
+  </data>
+  <data name="BatchEdit.Action.RomajiToHiragana" xml:space="preserve">
+    <value>Romaji ke Hiragana</value>
+  </data>
+  <data name="BatchEdit.Action.HiraganaToRomaji" xml:space="preserve">
+    <value>Hiragana ke Romaji</value>
+  </data>
+  <data name="BatchEdit.Action.JapaneseVcvToCv" xml:space="preserve">
+    <value>VCV Jepang ke CV</value>
+  </data>
+  <data name="BatchEdit.Action.RemoveToneSuffix" xml:space="preserve">
+    <value>Hapus akhiran nada</value>
+  </data>
+  <data name="BatchEdit.Action.RemoveLetterSuffix" xml:space="preserve">
+    <value>Hapus akhiran huruf</value>
+  </data>
+  <data name="BatchEdit.Action.MoveSuffixToVoiceColor" xml:space="preserve">
+    <value>Pindahkan akhiran ke voice color</value>
+  </data>
+  <data name="BatchEdit.Action.RemovePhoneticHint" xml:space="preserve">
+    <value>Hapus petunjuk fonetik</value>
+  </data>
+  <data name="BatchEdit.Action.DashToPlus" xml:space="preserve">
+    <value>Ubah tanda hubung jadi plus</value>
+  </data>
+  <data name="BatchEdit.Action.DashToPlusTilde" xml:space="preserve">
+    <value>Ubah tanda hubung jadi plus-tilde</value>
+  </data>
+  <data name="BatchEdit.Action.InsertSlur" xml:space="preserve">
+    <value>Sisipkan slur</value>
+  </data>
+  <data name="BatchEdit.Action.AddTailNote" xml:space="preserve">
+    <value>Tambah not ekor</value>
+  </data>
+  <data name="BatchEdit.Action.RemoveTailNote" xml:space="preserve">
+    <value>Hapus not ekor</value>
+  </data>
+  <data name="BatchEdit.Action.AddBreathNote" xml:space="preserve">
+    <value>Tambah not napas</value>
+  </data>
+  <data name="BatchEdit.Action.Transpose" xml:space="preserve">
+    <value>Transpos</value>
+  </data>
+  <data name="BatchEdit.Action.Quantize" xml:space="preserve">
+    <value>Kuantisasi not</value>
+  </data>
+  <data name="BatchEdit.Action.AutoLegato" xml:space="preserve">
+    <value>Legato otomatis</value>
+  </data>
+  <data name="BatchEdit.Action.FixOverlap" xml:space="preserve">
+    <value>Perbaiki not tumpang tindih</value>
+  </data>
+  <data name="BatchEdit.Action.CommonNoteCopy" xml:space="preserve">
+    <value>Salin sebagai CommonNote</value>
+  </data>
+  <data name="BatchEdit.Action.CommonNotePaste" xml:space="preserve">
+    <value>Tempel CommonNote</value>
+  </data>
+  <data name="BatchEdit.Action.HanziToPinyin" xml:space="preserve">
+    <value>Hanzi ke Pinyin</value>
+  </data>
+  <data name="BatchEdit.Action.LengthenCrossfade" xml:space="preserve">
+    <value>Perpanjang crossfade</value>
+  </data>
+  <data name="BatchEdit.Action.RandomizeTiming" xml:space="preserve">
+    <value>Acak timing</value>
+  </data>
+  <data name="BatchEdit.Action.RandomizePhonemeOffset" xml:space="preserve">
+    <value>Acak offset fonem</value>
+  </data>
+  <data name="BatchEdit.Action.RandomizeTuning" xml:space="preserve">
+    <value>Acak tuning</value>
+  </data>
+  <data name="BatchEdit.Action.LoadRenderedPitch" xml:space="preserve">
+    <value>Muat pitch hasil render</value>
+  </data>
+  <data name="BatchEdit.Action.BakePitch" xml:space="preserve">
+    <value>Bake pitch</value>
+  </data>
+  <data name="BatchEdit.Action.RefreshRealCurves" xml:space="preserve">
+    <value>Segarkan kurva hasil render</value>
+  </data>
+  <data name="BatchEdit.Action.ResetPitchBends" xml:space="preserve">
+    <value>Reset pitch bend</value>
+  </data>
+  <data name="BatchEdit.Action.ResetExpressions" xml:space="preserve">
+    <value>Reset ekspresi</value>
+  </data>
+  <data name="BatchEdit.Action.ClearVibratos" xml:space="preserve">
+    <value>Hapus vibrato</value>
+  </data>
+  <data name="BatchEdit.Action.ResetVibratos" xml:space="preserve">
+    <value>Reset vibrato</value>
+  </data>
+  <data name="BatchEdit.Action.ClearTimings" xml:space="preserve">
+    <value>Hapus timing fonem</value>
+  </data>
+  <data name="BatchEdit.Action.ResetAliases" xml:space="preserve">
+    <value>Reset alias fonem</value>
+  </data>
+  <data name="BatchEdit.Action.ResetAll" xml:space="preserve">
+    <value>Reset semua data not</value>
+  </data>
+  <data name="BatchEdit.Validation.SelectionUnavailable" xml:space="preserve">
+    <value>Not yang dipilih sudah tidak ada di part saat ini.</value>
+  </data>
+  <data name="Settings.Render.PerformanceMonitor" xml:space="preserve">
+    <value>Monitor performa</value>
+  </data>
+  <data name="Settings.Render.PerformanceMonitor.Desc" xml:space="preserve">
+    <value>Tampilkan pemakaian sumber daya secara real-time di pojok kanan atas.</value>
+  </data>
+  <data name="PerformanceMonitor.AppMemory" xml:space="preserve"><value>RAM Aplikasi</value></data>
+  <data name="PerformanceMonitor.ManagedHeap" xml:space="preserve"><value>Managed heap</value></data>
+  <data name="PerformanceMonitor.SystemMemory" xml:space="preserve"><value>Memori</value></data>
+  <data name="PerformanceMonitor.Cpu" xml:space="preserve"><value>CPU</value></data>
+  <data name="PerformanceMonitor.AppShort" xml:space="preserve"><value>Apl</value></data>
+  <data name="PerformanceMonitor.SystemShort" xml:space="preserve"><value>Sistem</value></data>
+  <data name="PerformanceMonitor.Fps" xml:space="preserve"><value>FPS</value></data>
+  <data name="PhonemePanel.EditMode.Switch" xml:space="preserve">
+    <value>Ganti mode edit fonem &amp; parameter</value>
+  </data>
+  <data name="PhonemePanel.Mode.Simple" xml:space="preserve">
+    <value>Mode fonem sederhana</value>
+  </data>
+  <data name="PhonemePanel.Mode.Advanced" xml:space="preserve">
+    <value>Mode fonem lanjutan</value>
+  </data>
+  <data name="PhonemePanel.Mode.Draw" xml:space="preserve">
+    <value>Mode gambar parameter</value>
+  </data>
+  <data name="PhonemePanel.Mode.Erase" xml:space="preserve">
+    <value>Mode hapus parameter</value>
+  </data>
+  <data name="PhonemePanel.Toast.Simple" xml:space="preserve">
+    <value>Mode fonem sederhana</value>
+  </data>
+  <data name="PhonemePanel.Toast.Advanced" xml:space="preserve">
+    <value>Mode fonem lanjutan</value>
+  </data>
+  <data name="PhonemePanel.Toast.Draw" xml:space="preserve">
+    <value>Mode gambar parameter</value>
+  </data>
+  <data name="PhonemePanel.Toast.Erase" xml:space="preserve">
+    <value>Mode hapus parameter</value>
+  </data>
+  <data name="PhonemePanel.Param.Primary" xml:space="preserve">
+    <value>Parameter utama</value>
+  </data>
+  <data name="PhonemePanel.Param.Secondary" xml:space="preserve">
+    <value>Parameter latar</value>
+  </data>
+  <data name="PhonemePanel.Param.Swap" xml:space="preserve">
+    <value>Tukar parameter utama &amp; latar</value>
+  </data>
+  <data name="PhonemePanel.Param.None" xml:space="preserve">
+    <value>Tidak ada</value>
+  </data>
+  <data name="PhonemePanel.Split.Tooltip" xml:space="preserve">
+    <value>Seret untuk mengubah ukuran panel fonem/parameter</value>
+  </data>
+  <data name="PhonemeEdit.Title" xml:space="preserve">
+    <value>Edit Alias Fonem</value>
+  </data>
+  <data name="PhonemeEdit.Watermark" xml:space="preserve">
+    <value>Alias bawaan (kosongkan untuk otomatis)</value>
+  </data>
+  <data name="PhonemeEdit.Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="PhonemeEdit.Info" xml:space="preserve">
+    <value>Not: {0} | Fonem #{1}</value>
+  </data>
+  <data name="PhonemePanel.Reset.ReleaseHint" xml:space="preserve">
+    <value>Lepaskan untuk mereset parameter</value>
+  </data>
+  <data name="ErrorDialog.CopySucceeded" xml:space="preserve">
+    <value>Informasi error disalin</value>
+  </data>
+  <data name="ErrorDialog.CopyFailed" xml:space="preserve">
+    <value>Gagal menyalin informasi error</value>
+  </data>
+  <data name="BulkLyricEdit.Title" xml:space="preserve">
+    <value>Edit lirik massal</value>
+  </data>
+  <data name="BulkLyricEdit.Watermark" xml:space="preserve">
+    <value>Masukkan lirik; pakai tanda kutip untuk menyatukan spasi atau kelompok karakter</value>
+  </data>
+  <data name="BulkLyricEdit.SelectedOnly" xml:space="preserve">
+    <value>Terapkan hanya ke not terpilih</value>
+  </data>
+  <data name="ImportTracks.FilesSelected" xml:space="preserve"><value>{0} berkas dipilih</value></data>
+  <data name="ImportTracks.ImportCount" xml:space="preserve"><value>Impor {0} trek</value></data>
+  <data name="ImportTracks.SourceSummary" xml:space="preserve"><value>{0} trek</value></data>
+  <data name="ImportTracks.TrackSummary" xml:space="preserve"><value>{0} part vokal · {1} part audio</value></data>
+  <data name="ImportTracks.MissingSinger" xml:space="preserve"><value>Penyanyi hilang atau belum ditetapkan: {0}</value></data>
+  <data name="ImportTracks.Unassigned" xml:space="preserve"><value>Belum ditetapkan</value></data>
+  <data name="ImportTracks.MissingAudio" xml:space="preserve"><value>Audio hilang: {0}</value></data>
+  <data name="ImportTracks.ColorMismatch" xml:space="preserve"><value>Voice color sumber berbeda dengan penyanyi terpasang. Periksa parameter voice color setelah impor.</value></data>
+  <data name="ImportTracks.AppendHint" xml:space="preserve"><value>Tambahkan sebagai trek baru di posisi asalnya tanpa menimpa trek yang ada.</value></data>
+  <data name="ImportTracks.ExpressionsHint" xml:space="preserve"><value>Definisi ekspresi yang sudah ada diutamakan; jika tidak, berkas pertama yang dipilih yang dipakai. Definisi yang hilang akan diimpor.</value></data>
+  <data name="ImportTracks.UseSourceTiming" xml:space="preserve"><value>Pakai tempo dan birama sumber (mati: pertahankan pengaturan saat ini)</value></data>
+  <data name="ImportTracks.TimingSource" xml:space="preserve"><value>Sumber tempo dan birama</value></data>
+  <data name="ImportTracks.TimingSummary" xml:space="preserve"><value>Awal {0} BPM · {1}/{2}; {3} penanda tempo, {4} penanda birama</value></data>
+  <data name="ImportTracks.TempoMarker" xml:space="preserve"><value>Posisi {0} tick: {1} BPM</value></data>
+  <data name="ImportTracks.SignatureMarker" xml:space="preserve"><value>Birama {0}: {1}/{2}</value></data>
+  <data name="ImportTracks.ReplaceTimingWarning" xml:space="preserve"><value>Ini akan mengganti tempo dan birama untuk seluruh proyek, termasuk trek yang sudah ada.</value></data>
+  <data name="ImportTracks.MarkerDetails" xml:space="preserve"><value>Semua penanda</value></data>
+  <data name="ImportTracks.SelectAll" xml:space="preserve"><value>Pilih semua</value></data>
+  <data name="ImportTracks.SelectNone" xml:space="preserve"><value>Batalkan semua pilihan</value></data>
+  <data name="ImportTracks.RemoveFile" xml:space="preserve"><value>Hapus berkas ini</value></data>
+  <data name="ImportTracks.Reading" xml:space="preserve"><value>Membaca berkas trek…</value></data>
+  <data name="ImportTracks.Importing" xml:space="preserve"><value>Mengimpor trek…</value></data>
+  <data name="ImportTracks.Success" xml:space="preserve"><value>{0} trek diimpor</value></data>
+  <data name="ImportTracks.ProjectChanged" xml:space="preserve"><value>Proyek saat ini berubah. Mulai impor lagi.</value></data>
+  <data name="ImportTracks.HistoryNotice" xml:space="preserve"><value>Seperti aplikasi desktop, mengimpor trek menghapus riwayat undo/redo dan mereset playhead. Tempo dan birama diambil dari proyek pertama yang diimpor.</value></data>
+  <data name="VoiceMapping.Title" xml:space="preserve"><value>Pemetaan voice color</value></data>
+  <data name="VoiceMapping.VocalModesTitle" xml:space="preserve"><value>Pemetaan mode vokal yang diimpor</value></data>
+  <data name="VoiceMapping.Hint" xml:space="preserve"><value>Petakan voice color asli ke penyanyi saat ini. Jika dilewati, trek yang diimpor dibiarkan apa adanya.</value></data>
+  <data name="VoiceMapping.VocalModesHint" xml:space="preserve"><value>Petakan kurva mode vokal yang diimpor ke voice color DiffSinger. Secara bawaan konversi dilewati; kurva target yang sudah ada dipertahankan.</value></data>
+  <data name="VoiceMapping.Default" xml:space="preserve"><value>Bawaan</value></data>
+  <data name="VoiceMapping.Apply" xml:space="preserve"><value>Terapkan pemetaan</value></data>
+  <data name="VoiceMapping.NoNotes" xml:space="preserve"><value>Trek ini tidak punya not atau voice color untuk dipetakan.</value></data>
+  <data name="VoiceMapping.Undo" xml:space="preserve"><value>Petakan ulang voice color</value></data>
+  <data name="DependencyManager.Sort" xml:space="preserve"><value>Urutkan</value></data>
+  <data name="Settings.Edit.Magnifier" xml:space="preserve"><value>Kaca Pembesar</value></data>
+  <data name="Settings.Edit.MagnifierFactor" xml:space="preserve"><value>Pembesaran</value></data>
+  <data name="Settings.Edit.MagnifierFactor.Desc" xml:space="preserve"><value>Berlaku untuk pengeditan kurva pitch dan parameter. Nilai di bawah 1× menampilkan area lebih luas; 1× adalah skala asli.</value></data>
+  <data name="Mixer.Close" xml:space="preserve"><value>Tutup mixer</value></data>
+  <data name="Mixer.Compressor" xml:space="preserve"><value>Kompresor</value></data>
+  <data name="Mixer.Effects" xml:space="preserve"><value>Efek</value></data>
+  <data name="Mixer.Empty" xml:space="preserve"><value>Tidak ada trek</value></data>
+  <data name="Mixer.High" xml:space="preserve"><value>Tinggi</value></data>
+  <data name="Mixer.Low" xml:space="preserve"><value>Rendah</value></data>
+  <data name="Mixer.MeterPending" xml:space="preserve"><value>Meter tidak tersedia</value></data>
+  <data name="Mixer.Mid" xml:space="preserve"><value>Tengah</value></data>
+  <data name="Mixer.Mute" xml:space="preserve"><value>Bisu</value></data>
+  <data name="Mixer.Order" xml:space="preserve"><value>Urutan tetap: EQ → Kompresor → Reverb</value></data>
+  <data name="Mixer.Preview" xml:space="preserve"><value>Kontrol audio hanya pratinjau; nama dan warna memperbarui proyek</value></data>
+  <data name="Mixer.Ratio" xml:space="preserve"><value>Rasio</value></data>
+  <data name="Mixer.Reverb" xml:space="preserve"><value>Reverb</value></data>
+  <data name="Mixer.Size" xml:space="preserve"><value>Panjang peluruhan</value></data>
+  <data name="Mixer.Solo" xml:space="preserve"><value>Solo</value></data>
+  <data name="Mixer.Threshold" xml:space="preserve"><value>Threshold</value></data>
+  <data name="Mixer.Title" xml:space="preserve"><value>Mixer</value></data>
+  <data name="Mixer.Wet" xml:space="preserve"><value>Jumlah reverb (pengali preset)</value></data>
+  <data name="Mixer.ResetHint" xml:space="preserve"><value>Klik dua kali slider untuk mengembalikan ke bawaan</value></data>
+  <data name="Mixer.ToggleFx" xml:space="preserve"><value>Aktifkan efek / bypass (menyala saat aktif)</value></data>
+  <data name="Mixer.FxOn" xml:space="preserve"><value>Aktif</value></data>
+  <data name="History.Edit" xml:space="preserve"><value>Edit</value></data>
+  <data name="Mixer.MidFrequency" xml:space="preserve"><value>Pusat band tengah (Hz)</value></data>
+  <data name="Mixer.Makeup" xml:space="preserve"><value>Makeup gain (dB)</value></data>
+  <data name="Mixer.Damp" xml:space="preserve"><value>Peredaman frekuensi tinggi</value></data>
+  <data name="Mixer.PreDelay" xml:space="preserve"><value>Pre-delay (ms)</value></data>
+  <data name="Mixer.EqGraph" xml:space="preserve"><value>EQ tiga band · Frekuensi Hz → / Gain dB ↑</value></data>
+  <data name="Mixer.EqGraphHint" xml:space="preserve"><value>Seret handle untuk gain; geser handle tengah secara horizontal untuk frekuensi.</value></data>
+  <data name="Mixer.CompGraph" xml:space="preserve"><value>Kompresor digital · Input dB → / Output dB ↑</value></data>
+  <data name="Mixer.CompGraphHint" xml:space="preserve"><value>Geser handle kiri secara horizontal untuk threshold, handle kanan secara vertikal untuk rasio. Kurva statis sudah termasuk makeup gain.</value></data>
+  <data name="Mixer.ReverbGraph" xml:space="preserve"><value>Freeverb · Waktu s → / Puncak wet dB ↑</value></data>
+  <data name="Mixer.ReverbGraphHint" xml:space="preserve"><value>Pratinjau peluruhan impuls kiri/kanan (4 s), hanya wet. Bukan audio langsung; ekor panjang bisa melebihi jendela.</value></data>
+  <data name="Mixer.Preset" xml:space="preserve"><value>Preset efek</value></data>
+  <data name="Mixer.ApplyPresetUndo" xml:space="preserve"><value>Terapkan preset efek</value></data>
+  <data name="Mixer.PresetLibrary" xml:space="preserve"><value>Preset rantai efek</value></data>
+  <data name="Mixer.DefaultPreset" xml:space="preserve"><value>Terapkan rantai bawaan</value></data>
+  <data name="Mixer.PresetName" xml:space="preserve"><value>Nama preset</value></data>
+  <data name="Mixer.SavePreset" xml:space="preserve"><value>Simpan (ganti yang bernama sama)</value></data>
+  <data name="Mixer.PresetNameRequired" xml:space="preserve"><value>Masukkan nama preset</value></data>
+  <data name="Mixer.PresetSaved" xml:space="preserve"><value>Preset disimpan: {0}</value></data>
+  <data name="Mixer.Preset.off" xml:space="preserve"><value>Mati</value></data>
+  <data name="Mixer.Preset.vocal_air" xml:space="preserve"><value>Vocal air</value></data>
+  <data name="Mixer.Preset.warm" xml:space="preserve"><value>Hangat</value></data>
+  <data name="Mixer.Preset.demud" xml:space="preserve"><value>De-mud</value></data>
+  <data name="Mixer.Preset.telephone" xml:space="preserve"><value>Telepon</value></data>
+  <data name="Mixer.Preset.gentle" xml:space="preserve"><value>Lembut</value></data>
+  <data name="Mixer.Preset.pop" xml:space="preserve"><value>Vokal pop</value></data>
+  <data name="Mixer.Preset.limit" xml:space="preserve"><value>Kompresi berat (10:1)</value></data>
+  <data name="Mixer.Preset.small_room" xml:space="preserve"><value>Ruangan kecil</value></data>
+  <data name="Mixer.Preset.vocal_plate" xml:space="preserve"><value>Gaya vocal plate</value></data>
+  <data name="Mixer.Preset.hall" xml:space="preserve"><value>Hall</value></data>
+  <data name="Mixer.Preset.ambient" xml:space="preserve"><value>Ambient</value></data>
+  <data name="Mixer.ChoosePreset" xml:space="preserve"><value>Pilih untuk menerapkan</value></data>
+  <data name="Mixer.UpdatePreset" xml:space="preserve"><value>Perbarui</value></data>
+  <data name="Mixer.AddPreset" xml:space="preserve"><value>Tambah</value></data>
+  <data name="Mixer.LoadPreset" xml:space="preserve"><value>Muat preset</value></data>
+  <data name="Mixer.PresetDefault" xml:space="preserve"><value>Bawaan</value></data>
+  <data name="Mixer.NewPresetTitle" xml:space="preserve"><value>Preset rantai efek baru</value></data>
+  <data name="Mixer.NewPresetHint" xml:space="preserve"><value>Simpan EQ, kompresi, dan reverb trek ini sebagai preset pengguna.</value></data>
+  <data name="Mixer.PresetNameExists" xml:space="preserve"><value>Nama sudah ada. Gunakan Perbarui untuk menggantinya.</value></data>
+  <data name="Mixer.Axis.Frequency" xml:space="preserve"><value>Frekuensi (Hz)</value></data>
+  <data name="Mixer.Axis.Gain" xml:space="preserve"><value>Gain (dB)</value></data>
+  <data name="Mixer.Axis.Input" xml:space="preserve"><value>Input (dB)</value></data>
+  <data name="Mixer.Axis.Output" xml:space="preserve"><value>Output (dB)</value></data>
+  <data name="Mixer.Axis.Time" xml:space="preserve"><value>Waktu (s)</value></data>
+  <data name="Mixer.Axis.WetPeak" xml:space="preserve"><value>Puncak wet (dB)</value></data>
+  <data name="PerformanceMonitor.AudioLatency" xml:space="preserve"><value>Latensi antrean audio</value></data>
+  <data name="Expressions.Title" xml:space="preserve"><value>Ekspresi</value></data>
+  <data name="Expressions.Project" xml:space="preserve"><value>Ekspresi Proyek</value></data>
+  <data name="Expressions.Track" xml:space="preserve"><value>Ekspresi Trek (menimpa)</value></data>
+  <data name="Expressions.Name" xml:space="preserve"><value>Nama</value></data>
+  <data name="Expressions.Abbr" xml:space="preserve"><value>Singkatan</value></data>
+  <data name="Expressions.Type" xml:space="preserve"><value>Jenis</value></data>
+  <data name="Expressions.Numerical" xml:space="preserve"><value>Numerik</value></data>
+  <data name="Expressions.Options" xml:space="preserve"><value>Opsi</value></data>
+  <data name="Expressions.Curve" xml:space="preserve"><value>Kurva</value></data>
+  <data name="Expressions.MaskedCurve" xml:space="preserve"><value>Kurva bermasker</value></data>
+  <data name="Expressions.IsFlag" xml:space="preserve"><value>Flag Resampler</value></data>
+  <data name="Expressions.Flag" xml:space="preserve"><value>Flag Resampler</value></data>
+  <data name="Expressions.Min" xml:space="preserve"><value>Min</value></data>
+  <data name="Expressions.Max" xml:space="preserve"><value>Maks</value></data>
+  <data name="Expressions.Default" xml:space="preserve"><value>Bawaan</value></data>
+  <data name="Expressions.SystemDefault" xml:space="preserve"><value>Bawaan Sistem</value></data>
+  <data name="Expressions.ProjectDefault" xml:space="preserve"><value>Bawaan Proyek</value></data>
+  <data name="Expressions.TrackDefault" xml:space="preserve"><value>Bawaan Trek</value></data>
+  <data name="Expressions.SkipOutput" xml:space="preserve"><value>Lewati output flag saat nilai sama dengan bawaan sistem</value></data>
+  <data name="Expressions.OptionValues" xml:space="preserve"><value>Nilai Opsi</value></data>
+  <data name="Expressions.CommaHint" xml:space="preserve"><value>Pisahkan nilai dengan &apos;,&apos;</value></data>
+  <data name="Expressions.Apply" xml:space="preserve"><value>Terapkan</value></data>
+  <data name="Expressions.Error.Name" xml:space="preserve"><value>Nama harus diisi</value></data>
+  <data name="Expressions.Error.Abbr" xml:space="preserve"><value>Singkatan harus diisi</value></data>
+  <data name="Expressions.Error.AbbrLength" xml:space="preserve"><value>Singkatan harus 1 sampai 4 karakter</value></data>
+  <data name="Expressions.Error.Range" xml:space="preserve"><value>Min harus lebih kecil dari maks</value></data>
+  <data name="Expressions.Error.Default" xml:space="preserve"><value>Nilai bawaan harus di antara min dan maks</value></data>
+  <data name="Expressions.Error.CustomDefault" xml:space="preserve"><value>Nilai bawaan Proyek/Trek harus di antara min dan maks</value></data>
+  <data name="Expressions.Error.DuplicateAbbr" xml:space="preserve"><value>Singkatan harus unik</value></data>
+  <data name="Expressions.Error.DuplicateFlag" xml:space="preserve"><value>Flag harus unik</value></data>
+  <data name="Expressions.Add" xml:space="preserve"><value>Tambah</value></data>
+  <data name="Expressions.Remove" xml:space="preserve"><value>Hapus</value></data>
+  <data name="Expressions.Suggestions" xml:space="preserve"><value>Saran</value></data>
+  <data name="Expressions.ProjectScope" xml:space="preserve"><value>Proyek</value></data>
+  <data name="Expressions.TrackScope" xml:space="preserve"><value>Trek</value></data>
+  <data name="Expressions.RendererUnsupported" xml:space="preserve">
+    <value>Renderer saat ini tidak mendukung ekspresi ini.</value>
+  </data>
+  <data name="NoteExtraction.Title" xml:space="preserve"><value>Ekstrak not</value></data>
+<data name="NoteExtraction.Running" xml:space="preserve"><value>Mengekstrak not…</value></data>
+  <data name="NoteExtraction.Empty" xml:space="preserve"><value>Tidak ada not yang terdeteksi.</value></data>
+  <data name="NoteExtraction.Unsupported" xml:space="preserve"><value>Ekstraksi not tidak didukung di platform ini.</value></data>
+  <data name="NoteExtraction.MissingOnnx" xml:space="preserve"><value>Pasang paket model GAME ONNX (game) di manajemen dependensi terlebih dahulu.</value></data>
+  <data name="NoteExtraction.MissingGgml" xml:space="preserve"><value>Pasang paket model GAME GGML (game-ggml-medium) yang berisi tepat satu model GGUF.</value></data>
+  <data name="NoteExtraction.MissingNative" xml:space="preserve"><value>Build aplikasi ini tidak berisi runtime GAME GGML yang kompatibel. Pakai build aplikasi berbasis GGML atau pilih ONNX.</value></data>
+  <data name="NoteExtraction.BackendStatus" xml:space="preserve"><value>{0} · {1}: {2}</value></data>
+  <data name="NoteExtraction.NotInstalled" xml:space="preserve"><value>Hilang atau tidak lengkap</value></data>
+  <data name="NoteExtraction.LanguageUnavailable" xml:space="preserve"><value>Bahasa tidak didukung</value></data>
+  <data name="NoteExtraction.RmvpeInstalled" xml:space="preserve"><value>rmvpe: terpasang</value></data>
+  <data name="NoteExtraction.RmvpeMissing" xml:space="preserve"><value>Pasang dependensi rmvpe untuk mengekstrak pitch</value></data>
+  <data name="NoteExtraction.ExtractPitch" xml:space="preserve"><value>Ekstrak kurva pitch dengan RMVPE</value></data>
+  <data name="NoteExtraction.Universal" xml:space="preserve"><value>Universal</value></data>
+  <data name="NoteExtraction.Language" xml:space="preserve"><value>Bahasa</value></data>
+  <data name="NoteExtraction.SamplingSteps" xml:space="preserve"><value>Langkah sampling</value></data>
+  <data name="NoteExtraction.BoundaryThreshold" xml:space="preserve"><value>Threshold batas not</value></data>
+  <data name="NoteExtraction.BoundaryRadius" xml:space="preserve"><value>Radius batas (frame)</value></data>
+  <data name="NoteExtraction.ScoreThreshold" xml:space="preserve"><value>Threshold kepercayaan not</value></data>
+  <data name="NoteExtraction.BatchSize" xml:space="preserve"><value>Klip per batch</value></data>
+  <data name="NoteExtraction.BatchDuration" xml:space="preserve"><value>Durasi batch maksimum dengan padding (s)</value></data>
+  <data name="NoteExtraction.BatchHint" xml:space="preserve"><value>Khusus ONNX: durasi dihitung termasuk padding sampai klip terpanjang. 1 klip dijalankan sendiri-sendiri; 0 s menghapus batas durasi.</value></data>
+  <data name="NoteExtraction.RunOnnx" xml:space="preserve"><value>Ekstrak dengan ONNX</value></data>
+  <data name="NoteExtraction.RunGgml" xml:space="preserve"><value>Ekstrak dengan GGML</value></data>
+  <data name="NoteExtraction.ExtractingPitch" xml:space="preserve"><value>Mengekstrak kurva pitch…</value></data>
+  <data name="NoteExtraction.InvalidSettings" xml:space="preserve"><value>Masukkan nilai valid; radius dan jumlah klip harus bilangan bulat.</value></data>
+  <data name="NoteProperties.Summary" xml:space="preserve"><value>{0} not terpilih</value></data>
+  <data name="NoteProperties.Hint" xml:space="preserve"><value>Hanya kolom yang diedit yang diterapkan. Kolom kosong menandakan nilai campuran.</value></data>
+  <data name="NoteProperties.Mixed" xml:space="preserve"><value>Nilai campuran</value></data>
+  <data name="NoteProperties.Choose" xml:space="preserve"><value>Pilih nilai</value></data>
+  <data name="NoteProperties.Reset" xml:space="preserve"><value>Reset ekspresi ke bawaan</value></data>
+  <data name="NoteProperties.Basic" xml:space="preserve"><value>Dasar</value></data>
+  <data name="NoteProperties.Lyric" xml:space="preserve"><value>Lirik</value></data>
+  <data name="NoteProperties.Tone" xml:space="preserve"><value>Pitch</value></data>
+  <data name="NoteProperties.Tuning" xml:space="preserve"><value>Fine tuning (cent)</value></data>
+  <data name="NoteProperties.Phonemizer" xml:space="preserve"><value>Phonemizer</value></data>
+  <data name="NoteProperties.TrackDefault" xml:space="preserve"><value>Pakai phonemizer trek</value></data>
+  <data name="NoteProperties.Portamento" xml:space="preserve"><value>Portamento</value></data>
+  <data name="NoteProperties.PortamentoLength" xml:space="preserve"><value>Panjang (ms)</value></data>
+  <data name="NoteProperties.PortamentoStart" xml:space="preserve"><value>Mulai (ms)</value></data>
+  <data name="NoteProperties.Shape" xml:space="preserve"><value>Bentuk kurva</value></data>
+  <data name="NoteProperties.EaseInOut" xml:space="preserve"><value>Ease in/out</value></data>
+  <data name="NoteProperties.Linear" xml:space="preserve"><value>Linear</value></data>
+  <data name="NoteProperties.EaseIn" xml:space="preserve"><value>Ease in</value></data>
+  <data name="NoteProperties.EaseOut" xml:space="preserve"><value>Ease out</value></data>
+  <data name="NoteProperties.Smooth" xml:space="preserve"><value>Halus</value></data>
+  <data name="NoteProperties.Preset" xml:space="preserve"><value>Preset</value></data>
+  <data name="NoteProperties.Vibrato" xml:space="preserve"><value>Vibrato</value></data>
+  <data name="NoteProperties.VibratoLength" xml:space="preserve"><value>Panjang (%) · 0 = mati</value></data>
+  <data name="NoteProperties.Period" xml:space="preserve"><value>Periode (ms)</value></data>
+  <data name="NoteProperties.Depth" xml:space="preserve"><value>Kedalaman (cent)</value></data>
+  <data name="NoteProperties.FadeIn" xml:space="preserve"><value>Fade in (%)</value></data>
+  <data name="NoteProperties.FadeOut" xml:space="preserve"><value>Fade out (%)</value></data>
+  <data name="NoteProperties.Shift" xml:space="preserve"><value>Pergeseran fase (%)</value></data>
+  <data name="NoteProperties.Drift" xml:space="preserve"><value>Drift (%)</value></data>
+  <data name="NoteProperties.VolumeLink" xml:space="preserve"><value>Tautan volume (%)</value></data>
+  <data name="NoteProperties.Expressions" xml:space="preserve"><value>Ekspresi</value></data>
+  <data name="NoteProperties.Stale" xml:space="preserve"><value>Part atau not yang diedit sudah tidak tersedia. Tutup dan buka lagi dialog ini.</value></data>
+  <data name="NoteProperties.Invalid" xml:space="preserve"><value>Periksa rentang input, nilai kosong, dan syarat bilangan bulat.</value></data>
+  <data name="NoteProperties.Title" xml:space="preserve"><value>Properti not</value></data>
+  <data name="NoteProperties.ToneHint" xml:space="preserve"><value>Gunakan C4 atau F#4, nomor MIDI, atau +2 / -2 untuk semiton relatif.</value></data>
+  <data name="NoteProperties.InvalidTone" xml:space="preserve"><value>Masukkan nama not, nomor MIDI, atau semiton relatif yang menghasilkan MIDI 0–127.</value></data>
+  <data name="NoteProperties.PhonemizerHint" xml:space="preserve"><value>Not perpanjangan (lirik diawali +) memakai phonemizer not sebelumnya.</value></data>
+  <data name="NoteProperties.NoExpressions" xml:space="preserve"><value>Trek ini tidak punya ekspresi non-kurva yang bisa diedit.</value></data>
+  <data name="NoteProperties.VibratoEnabled" xml:space="preserve"><value>Aktifkan vibrato</value></data>
+  <data name="NoteProperties.AutoVibrato" xml:space="preserve"><value>Aktifkan vibrato hanya pada not panjang</value></data>
+  <data name="NoteProperties.AutoDuration" xml:space="preserve"><value>Durasi not minimum (tick)</value></data>
+  <data name="NoteProperties.AutoHint" xml:space="preserve"><value>Dipakai saat mengubah panjang atau mengaktifkan vibrato. Seperti di desktop, not pertama yang dipilih dikecualikan.</value></data>
+  <data name="NoteProperties.PresetName" xml:space="preserve"><value>Nama preset</value></data>
+  <data name="NoteProperties.SavePreset" xml:space="preserve"><value>Simpan preset</value></data>
+  <data name="NoteProperties.RemovePreset" xml:space="preserve"><value>Hapus preset</value></data>
+  <data name="NoteProperties.PresetHint" xml:space="preserve"><value>Simpan draf not pertama yang dipilih. Perubahan preset disimpan saat kamu memilih Terapkan.</value></data>
+  <data name="NoteProperties.PresetNameRequired" xml:space="preserve"><value>Masukkan nama preset.</value></data>
+  <data name="NoteProperties.On" xml:space="preserve"><value>Hidup</value></data>
+  <data name="NoteProperties.Off" xml:space="preserve"><value>Mati</value></data>
+  <data name="NoteProperties.Tab.Basic" xml:space="preserve"><value>Dasar</value></data>
+  <data name="NoteProperties.Tab.Portamento" xml:space="preserve"><value>Glide</value></data>
+  <data name="NoteProperties.Tab.Vibrato" xml:space="preserve"><value>Vibr.</value></data>
+  <data name="NoteProperties.Tab.Expressions" xml:space="preserve"><value>Eksp.</value></data>
+  <data name="EditorMore.SaveAsTemplate" xml:space="preserve"><value>Simpan sebagai templat</value></data>
+  <data name="ProjectTemplates.Title" xml:space="preserve"><value>Templat proyek</value></data>
+  <data name="ProjectTemplates.Empty" xml:space="preserve"><value>Belum ada templat. Simpan dari Lainnya → Berkas di editor.</value></data>
+  <data name="ProjectTemplates.Name" xml:space="preserve"><value>Nama templat</value></data>
+  <data name="ProjectTemplates.HoldHint" xml:space="preserve"><value>Tahan untuk membuka templat proyek</value></data>
+  <data name="Picker.PartRename.Title" xml:space="preserve"><value>Ganti Nama Part</value></data>
+  <data name="Picker.PartRename.Placeholder" xml:space="preserve"><value>Masukkan nama part</value></data>
+  <data name="PartRename.Error.Empty" xml:space="preserve"><value>Nama part tidak boleh kosong</value></data>
+  <data name="PianoRoll.RenderDisplay.Toggle" xml:space="preserve"><value>Alihkan antara waveform vokal dan progres render</value></data>
+  <data name="ExportLogs.Title" xml:space="preserve"><value>Ekspor log</value></data>
+  <data name="ExportLogs.Refresh" xml:space="preserve"><value>Muat ulang daftar log</value></data>
+  <data name="ExportLogs.Hint" xml:space="preserve"><value>Pilih log untuk membantu memecahkan masalah. Arsip dapat berisi informasi perangkat dan lokasi berkas, jadi periksa dulu sebelum dibagikan.</value></data>
+  <data name="ExportLogs.Available" xml:space="preserve"><value>Log tersedia</value></data>
+  <data name="ExportLogs.SelectNone" xml:space="preserve"><value>Batalkan pilihan</value></data>
+  <data name="ExportLogs.SelectionSummary" xml:space="preserve"><value>{0} dari {1} dipilih</value></data>
+  <data name="ExportLogs.Export" xml:space="preserve"><value>Ekspor</value></data>
+  <data name="ExportLogs.Loading" xml:space="preserve"><value>Memuat log…</value></data>
+  <data name="ExportLogs.EmptyTitle" xml:space="preserve"><value>Belum ada log</value></data>
+  <data name="ExportLogs.EmptyDescription" xml:space="preserve"><value>Log akan muncul di sini setelah aplikasi membuatnya.</value></data>
+  <data name="ExportLogs.LoadFailed" xml:space="preserve"><value>Tidak dapat memuat daftar log.</value></data>
+  <data name="ExportLogs.Retry" xml:space="preserve"><value>Coba lagi</value></data>
+  <data name="ExportLogs.SaveDialogTitle" xml:space="preserve"><value>Pilih lokasi penyimpanan arsip log</value></data>
+  <data name="ExportLogs.ExportSuccess" xml:space="preserve"><value>{0} berkas log diekspor</value></data>
+  <data name="ExportLogs.ExportFailed" xml:space="preserve"><value>Tidak dapat mengekspor log</value></data>
+  <data name="ExportLogs.ExportCrashLogs" xml:space="preserve"><value>Ekspor log crash Android</value></data>
+  <data name="ExportLogs.CrashSaveDialogTitle" xml:space="preserve"><value>Pilih lokasi penyimpanan arsip log crash</value></data>
+  <data name="ExportLogs.CrashExportSuccess" xml:space="preserve"><value>Diagnostik crash diekspor ({0} catatan penutupan abnormal)</value></data>
+  <data name="ExportLogs.CrashExportFailed" xml:space="preserve"><value>Tidak dapat mengekspor log crash</value></data>
+  <data name="Editor.Split.NotesInTheWay" xml:space="preserve">
+    <value>Ada satu atau lebih not yang tumpang tindih dengan playhead. Lanjutkan memisah di posisi terdekat setelah playhead yang tidak ada not-nya?</value>
+  </data>
+  <data name="PianoRoll.Split.NoIntersection" xml:space="preserve">
+    <value>Geser playhead ke dalam not yang dipilih untuk memisahkannya.</value>
+  </data>
+  <data name="PianoRoll.Split.TooShort" xml:space="preserve">
+    <value>Setiap not hasil pemisahan minimal 10 tick. Titik pisah tidak dipindahkan.</value>
+  </data>
+  <data name="Settings.Graphics.Title" xml:space="preserve">
+    <value>Backend grafis UI</value>
+  </data>
+  <data name="Settings.Graphics.Auto" xml:space="preserve">
+    <value>Otomatis (disarankan)</value>
+  </data>
+  <data name="Settings.Graphics.Vulkan" xml:space="preserve">
+    <value>Utamakan Vulkan</value>
+  </data>
+  <data name="Settings.Graphics.OpenGLES" xml:space="preserve">
+    <value>Utamakan OpenGL ES</value>
+  </data>
+  <data name="Settings.Graphics.Software" xml:space="preserve">
+    <value>Render perangkat lunak (pemecahan masalah)</value>
+  </data>
+  <data name="Settings.Graphics.ANGLE" xml:space="preserve">
+    <value>Utamakan ANGLE</value>
+  </data>
+  <data name="Settings.Graphics.OpenGL" xml:space="preserve">
+    <value>Utamakan OpenGL</value>
+  </data>
+  <data name="Settings.Graphics.GLX" xml:space="preserve">
+    <value>Utamakan OpenGL (GLX)</value>
+  </data>
+  <data name="Settings.Graphics.EGL" xml:space="preserve">
+    <value>Utamakan EGL</value>
+  </data>
+  <data name="Settings.Graphics.Metal" xml:space="preserve">
+    <value>Utamakan Metal</value>
+  </data>
+  <data name="Settings.Graphics.MetalExperimental" xml:space="preserve">
+    <value>Utamakan Metal (eksperimental)</value>
+  </data>
+  <data name="Settings.Graphics.WebGL2" xml:space="preserve">
+    <value>Utamakan WebGL 2</value>
+  </data>
+  <data name="Settings.Graphics.WebGL1" xml:space="preserve">
+    <value>Utamakan WebGL 1</value>
+  </data>
+  <data name="Settings.Graphics.Custom" xml:space="preserve">
+    <value>Kustom</value>
+  </data>
+  <data name="Settings.Graphics.Default" xml:space="preserve">
+    <value>Dipilih otomatis oleh Avalonia</value>
+  </data>
+  <data name="Settings.Graphics.RestartRequired" xml:space="preserve">
+    <value>Perubahan memerlukan aplikasi dimulai ulang.</value>
+  </data>
+  <data name="Settings.Graphics.ReloadRequired" xml:space="preserve">
+    <value>Perubahan memerlukan halaman dimuat ulang.</value>
+  </data>
+  <data name="Settings.Graphics.RestartPending" xml:space="preserve">
+    <value>Tersimpan. Mulai ulang aplikasi untuk menerapkan.</value>
+  </data>
+  <data name="Settings.Graphics.ReloadPending" xml:space="preserve">
+    <value>Tersimpan. Muat ulang halaman untuk menerapkan.</value>
+  </data>
+  <data name="Settings.Graphics.StorageUnavailable" xml:space="preserve">
+    <value>Penyimpanan pengaturan tidak tersedia. Backend grafis tidak dapat diubah.</value>
+  </data>
+  <data name="Settings.Graphics.SaveFailed" xml:space="preserve">
+    <value>Tidak dapat menyimpan. Silakan coba lagi.</value>
+  </data>
+  <data name="Settings.Graphics.InvalidConfiguration" xml:space="preserve">
+    <value>Entri backend yang tidak valid atau duplikat diabaikan. Pengaturan tersimpan tidak berubah.</value>
+  </data>
+  <data name="Splash.Failed" xml:space="preserve">
+    <value>Inisialisasi gagal</value>
+  </data>
+  <data name="FilePicker.InvalidFileName" xml:space="preserve">
+    <value>Masukkan nama berkas valid tanpa pemisah direktori.</value>
+  </data>
+  <data name="PhonemePanel.Param.ClearValue" xml:space="preserve"><value>Hapus nilai yang digambar</value></data>
+  <data name="Editor.Split.MaskedGridAdjustment" xml:space="preserve"><value>Part “{0}”: Untuk mempertahankan kurva bermasker pada grid 5-tick dan menghindari pemisahan not, geser titik pisah dari {1} ke {2} tick setelah awal part. Lanjutkan?</value></data>
+  <data name="Editor.Split.NoValidPosition" xml:space="preserve"><value>Part “{0}” tidak dapat dipisah di sini: tidak ada posisi pisah yang valid sebelum akhirnya.</value></data>
+  <data name="Expressions.GraphCalculatedValues" xml:space="preserve"><value>Garis putus-putus: nilai hasil hitung graph</value></data>
+  <data name="EditorMore.MergeNearbyPhrases" xml:space="preserve">
+    <value>Gabungkan frasa DiffSinger</value>
+  </data>
+  <data name="EditorMore.MergeNearbyPhrases.Desc" xml:space="preserve">
+    <value>Mati secara bawaan. Jika aktif, frasa di sekitar jeda pendek dapat disintesis bersamaan, yang bisa mengubah hasil nyanyian. Berlaku untuk semua trek DiffSinger; mengubahnya akan membangun ulang grup frasa.</value>
+  </data>
+  <data name="Mixer.EnableEffect" xml:space="preserve"><value>Aktifkan efek ini</value></data>
+  <data name="Mixer.FxBypassed" xml:space="preserve"><value>Semua FX di-bypass</value></data>
+  <data name="Mixer.ModuleBypassed" xml:space="preserve"><value>Efek di-bypass</value></data>
+  <data name="ErrorDialog.MissingPackage" xml:space="preserve">
+    <value>Paket dependensi hilang: {0}</value>
+  </data>
+  <data name="PianoRoll.PitchTarget.FollowGraph" xml:space="preserve"><value>Target pitch: Ikuti graph ({0})</value></data>
+  <data name="PianoRoll.PitchTarget.Deviation" xml:space="preserve"><value>Target pitch: Deviasi (PITD)</value></data>
+  <data name="PianoRoll.PitchTarget.Override" xml:space="preserve"><value>Target pitch: Timpa (PITO)</value></data>
+  <data name="Settings.Edit.ShowPitchPenHitArea" xml:space="preserve"><value>Tampilkan area kuas pitch</value></data>
+  <data name="RendererSettings.Title" xml:space="preserve">
+    <value>Pengaturan render trek</value>
+  </data>
+  <data name="RendererSettings.Renderer" xml:space="preserve">
+    <value>Renderer</value>
+  </data>
+  <data name="RendererSettings.Resampler" xml:space="preserve">
+    <value>Resampler</value>
+  </data>
+  <data name="RendererSettings.Wavtool" xml:space="preserve">
+    <value>Wavtool</value>
+  </data>
+  <data name="RendererSettings.Apply" xml:space="preserve">
+    <value>Terapkan</value>
+  </data>
+  <data name="RendererSettings.Graph.Title" xml:space="preserve">
+    <value>Graph ekspresi (Graph)</value>
+  </data>
+  <data name="RendererSettings.Graph.Default" xml:space="preserve">
+    <value>Pakai bawaan proyek</value>
+  </data>
+  <data name="RendererSettings.Graph.Unavailable" xml:space="preserve">
+    <value>Tidak tersedia: {0}</value>
+  </data>
+  <data name="RendererSettings.Graph.NoEffective" xml:space="preserve">
+    <value>Tidak ada graph ekspresi yang aktif.</value>
+  </data>
+  <data name="RendererSettings.Graph.DefaultEffective" xml:space="preserve">
+    <value>Bawaan proyek: {0}</value>
+  </data>
+  <data name="RendererSettings.Graph.Effective" xml:space="preserve">
+    <value>Graph aktif: {0}</value>
+  </data>
+  <data name="RendererSettings.Graph.Empty" xml:space="preserve">
+    <value>Proyek tidak punya graph ekspresi yang kompatibel dengan renderer ini.</value>
+  </data>
+  <data name="RendererSettings.Graph.Missing" xml:space="preserve">
+    <value>Graph ekspresi “{0}” tidak ditemukan. Pilih opsi lain.</value>
+  </data>
+  <data name="RendererSettings.Graph.Incompatible" xml:space="preserve">
+    <value>Graph ekspresi “{0}” tidak kompatibel dengan renderer ini.</value>
+  </data>
+  <data name="RendererSettings.Graph.Invalid" xml:space="preserve">
+    <value>Graph ekspresi “{0}” tidak dapat dijalankan: {1}</value>
+  </data>
+  <data name="RendererSettings.Warning.HifiSampler" xml:space="preserve">
+    <value>Peringatan: Ini adalah implementasi HIFISAMPLER bawaan OpenUtau Mobile. Sebaiknya ganti ke CLASSIC → hifisampler untuk memakai implementasi resmi.</value>
+  </data>
+  <data name="RendererSettings.Warning.WorldlineR2" xml:space="preserve">
+    <value>Peringatan: Worldline-R2 belum selesai dan sudah usang. Tidak disarankan untuk dipakai.</value>
+  </data>
+  <data name="RendererSettings.Error.Renderer" xml:space="preserve">
+    <value>Renderer saat ini hilang atau tidak kompatibel. Pilih renderer yang kompatibel.</value>
+  </data>
+  <data name="RendererSettings.Error.Resampler" xml:space="preserve">
+    <value>Pilih resampler yang kompatibel. Wavtool eksternal tidak mendukung resampler Worldline.</value>
+  </data>
+  <data name="RendererSettings.Error.Wavtool" xml:space="preserve">
+    <value>Pilih wavtool.</value>
+  </data>
+  <data name="RendererSettings.Error.NoResamplers" xml:space="preserve">
+    <value>Tidak ada resampler yang kompatibel. Periksa alat terpasang di Pengaturan.</value>
+  </data>
+  <data name="RendererSettings.Error.NoWavtools" xml:space="preserve">
+    <value>Tidak ada wavtool tersedia. Periksa alat terpasang di Pengaturan.</value>
+  </data>
+  <data name="RendererSettings.Error.Stale" xml:space="preserve">
+    <value>Trek, penyanyi, atau pengaturan berubah. Tutup dan buka lagi dialog ini.</value>
+  </data>
+  <data name="RendererSettings.Error.NoSinger" xml:space="preserve">
+    <value>Pilih penyanyi untuk trek ini terlebih dahulu.</value>
+  </data>
+  <data name="RendererSettings.Error.MissingSinger" xml:space="preserve">
+    <value>Penyanyi hilang. Pilih penyanyi yang tersedia.</value>
+  </data>
+  <data name="Options.PluginManager" xml:space="preserve">
+    <value>Manajer plugin</value>
+  </data>
+  <data name="Options.PluginManager.Desc" xml:space="preserve">
+    <value>Pasang dan hapus plugin DLL</value>
+  </data>
+  <data name="PluginManager.Title" xml:space="preserve">
+    <value>Manajer plugin</value>
+  </data>
+  <data name="PluginManager.Install" xml:space="preserve">
+    <value>Pasang plugin</value>
+  </data>
+  <data name="PluginManager.Empty" xml:space="preserve">
+    <value>Belum ada plugin DLL terpasang. Gunakan tombol plus untuk menambahkan.</value>
+  </data>
+  <data name="PluginManager.RefreshFailed" xml:space="preserve">
+    <value>Tidak dapat membaca daftar plugin: {0}</value>
+  </data>
+  <data name="PluginManager.SelectFile" xml:space="preserve">
+    <value>Pilih plugin DLL</value>
+  </data>
+  <data name="PluginManager.Checking" xml:space="preserve">
+    <value>Memeriksa managed assembly…</value>
+  </data>
+  <data name="PluginManager.Copying" xml:space="preserve">
+    <value>Memasang plugin…</value>
+  </data>
+  <data name="PluginManager.Completed" xml:space="preserve">
+    <value>Pemasangan selesai</value>
+  </data>
+  <data name="PluginManager.InvalidAssembly" xml:space="preserve">
+    <value>Berkas yang dipilih bukan managed DLL assembly yang valid.</value>
+  </data>
+  <data name="PluginManager.BuiltinNotAllowed" xml:space="preserve">
+    <value>Plugin bawaan dikelola aplikasi dan tidak dapat dipasang di sini.</value>
+  </data>
+  <data name="PluginManager.AlreadyExists" xml:space="preserve">
+    <value>Plugin dengan nama berkas ini sudah ada atau sedang menunggu penghapusan. Hapus dan mulai ulang aplikasi sebelum memasang.</value>
+  </data>
+  <data name="PluginManager.InstallFailed" xml:space="preserve">
+    <value>Pemasangan plugin gagal</value>
+  </data>
+  <data name="PluginManager.InstallSucceeded" xml:space="preserve">
+    <value>Plugin terpasang</value>
+  </data>
+  <data name="PluginManager.RestartToActivate" xml:space="preserve">
+    <value>Plugin berhasil dipasang. Mulai ulang aplikasi agar berlaku.</value>
+  </data>
+  <data name="PluginManager.DeleteTitle" xml:space="preserve">
+    <value>Hapus plugin</value>
+  </data>
+  <data name="PluginManager.DeleteMessage" xml:space="preserve">
+    <value>Tandai “{0}” untuk dihapus?&#10;&#10;DLL ini akan dihapus sebelum plugin dimuat pada peluncuran berikutnya. Mulai ulang aplikasi untuk menghapus sepenuhnya fitur yang sudah dimuat.</value>
+  </data>
+  <data name="PluginManager.PendingDeletion" xml:space="preserve">
+    <value>Menunggu penghapusan saat mulai ulang</value>
+  </data>
+  <data name="PluginManager.DeleteFailed" xml:space="preserve">
+    <value>Penghapusan plugin gagal</value>
+  </data>
+  <data name="PluginManager.PendingDeletionFailed" xml:space="preserve">
+    <value>Sebagian plugin tidak dapat dihapus. Periksa manajer plugin.</value>
+  </data>
+  <data name="PluginManager.LoadFailedTitle" xml:space="preserve">
+    <value>Pemuatan plugin gagal</value>
+  </data>
+  <data name="PluginManager.LoadFailed" xml:space="preserve">
+    <value>Gagal memuat plugin DLL ini atau memindai direktorinya:&#10;{0}&#10;&#10;Periksa detail error, assembly yang dibutuhkan, dan kompatibilitas dengan versi aplikasi ini.</value>
+  </data>
+  <data name="PluginManager.CancelDeletion" xml:space="preserve">
+    <value>Batalkan penghapusan</value>
+  </data>
+  <data name="PluginManager.DeletionCancelled" xml:space="preserve">
+    <value>Tanda penghapusan dibatalkan</value>
+  </data>
+  <data name="PluginManager.CancelDeletionFailed" xml:space="preserve">
+    <value>Gagal membatalkan penghapusan</value>
+  </data>
+  <data name="Desktop.Workspace" xml:space="preserve"><value>Ruang Kerja</value></data>
+  <data name="Desktop.Arrangement" xml:space="preserve"><value>Arrangement</value></data>
+  <data name="Desktop.PianoRoll" xml:space="preserve"><value>Piano roll</value></data>
+  <data name="Desktop.TuningMode" xml:space="preserve"><value>Tuning</value></data>
+  <data name="Desktop.ArrangementAndPianoRoll" xml:space="preserve"><value>Arrangement + Piano roll</value></data>
+  <data name="Desktop.ArrangementHint" xml:space="preserve"><value>Klik: pilih · Ctrl-klik: alihkan pilihan · Shift-klik: perluas pilihan · Seret area kosong: pilih kotak · Klik dua kali: buat / edit · Seret tombol tengah: geser · Ctrl/Cmd + roda: zoom</value></data>
+  <data name="Desktop.InputHint" xml:space="preserve"><value>Klik: pilih · Shift/Ctrl: perluas pilihan · Seret area kosong: pilih kotak · Klik dua kali: buat / edit lirik · Seret tombol tengah: geser · Ctrl/Cmd + roda: zoom</value></data>
+  <data name="Desktop.Tools" xml:space="preserve"><value>Alat eksternal</value></data>
+  <data name="Desktop.View" xml:space="preserve"><value>Tampilan</value></data>
+  <data name="Desktop.Project" xml:space="preserve"><value>Proyek</value></data>
+  <data name="Desktop.Transport" xml:space="preserve"><value>Transport</value></data>
+  <data name="Desktop.Help" xml:space="preserve"><value>Bantuan</value></data>
+  <data name="Desktop.CloseProject" xml:space="preserve"><value>Tutup proyek</value></data>
+  <data name="Desktop.NoteProperties" xml:space="preserve"><value>Properti not</value></data>
+  <data name="Desktop.Inspector" xml:space="preserve"><value>Inspector</value></data>
+  <data name="Desktop.ResetLayout" xml:space="preserve"><value>Reset tata letak</value></data>
+  <data name="Desktop.DropOneProject" xml:space="preserve"><value>Jatuhkan satu proyek sekali waktu. Berkas audio boleh dijatuhkan bersamaan.</value></data>
+  <data name="Desktop.Templates" xml:space="preserve"><value>Templat</value></data>
+  <data name="Desktop.NoTemplates" xml:space="preserve"><value>Templat proyek yang tersimpan muncul di sini.</value></data>
+  <data name="Desktop.Search" xml:space="preserve"><value>Cari</value></data>
+  <data name="Desktop.InstallFile" xml:space="preserve"><value>Pasang berkas alat</value></data>
+  <data name="Desktop.InstallFolder" xml:space="preserve"><value>Pasang folder alat</value></data>
+  <data name="Desktop.OpenFolder" xml:space="preserve"><value>Buka folder</value></data>
+  <data name="Desktop.Resamplers" xml:space="preserve"><value>Resampler</value></data>
+  <data name="Desktop.Wavtools" xml:space="preserve"><value>Wavtool</value></data>
+  <data name="Desktop.WinePath" xml:space="preserve"><value>Executable Wine</value></data>
+  <data name="Desktop.Builtin" xml:space="preserve"><value>Bawaan</value></data>
+  <data name="Desktop.Discovered" xml:space="preserve"><value>Ditemukan</value></data>
+  <data name="Desktop.Unavailable" xml:space="preserve"><value>Tidak tersedia di platform ini atau runtime hilang</value></data>
+  <data name="Desktop.ExperimentalWine" xml:space="preserve"><value>Eksperimental · memerlukan Wine</value></data>
+  <data name="Desktop.NativeWavtoolUnavailable" xml:space="preserve"><value>Wavtool Unix native tidak tersedia di batch-script engine saat ini</value></data>
+  <data name="Desktop.ToolChangesQueued" xml:space="preserve"><value>Masuk antrean. Tutup proyek untuk menerapkan perubahan alat dengan aman.</value></data>
+  <data name="Desktop.ToolsCompatibility" xml:space="preserve"><value>Alat harus cocok dengan OS dan arsitektur CPU kamu. Memasang berkas tidak memverifikasi hasil render. Pemasangan satu berkas menyalin manifes YAML-nya dan moreconfig.txt milik MoReSampler; gunakan pemasangan folder untuk dependensi paket.</value></data>
+  <data name="Desktop.InvalidToolFolder" xml:space="preserve"><value>Pilih folder alat biasa di luar direktori alat terkelola. Folder tertaut tidak didukung.</value></data>
+  <data name="Desktop.InvalidToolFile" xml:space="preserve"><value>Pilih executable atau skrip alat yang didukung.</value></data>
+  <data name="Desktop.ReplaceTool" xml:space="preserve"><value>Ganti berkas alat terpasang?</value></data>
+  <data name="Desktop.Replace" xml:space="preserve"><value>Ganti</value></data>
+  <data name="Desktop.ToolInUse" xml:space="preserve"><value>Alat ini dipakai proyek aktif dan tidak dapat dihapus.</value></data>
+  <data name="Desktop.Track" xml:space="preserve"><value>Trek</value></data>
+  <data name="Desktop.Notes" xml:space="preserve"><value>Not</value></data>
+  <data name="Desktop.Phoneme" xml:space="preserve"><value>Fonem</value></data>
+  <data name="Desktop.NoNotes" xml:space="preserve"><value>Pilih not untuk mengedit propertinya.</value></data>
+  <data name="Desktop.NoTrack" xml:space="preserve"><value>Tambah atau pilih trek.</value></data>
+  <data name="Desktop.NoPhoneme" xml:space="preserve"><value>Pilih not yang sudah punya fonem hasil generate.</value></data>
+  <data name="Desktop.Color" xml:space="preserve"><value>Warna trek</value></data>
+  <data name="Desktop.UseDefault" xml:space="preserve"><value>Pakai sebagai bawaan</value></data>
+  <data name="Desktop.Alias" xml:space="preserve"><value>Alias</value></data>
+  <data name="Desktop.Offset" xml:space="preserve"><value>Offset (tick)</value></data>
+  <data name="Desktop.Preutter" xml:space="preserve"><value>Delta preutterance (ms)</value></data>
+  <data name="Desktop.Overlap" xml:space="preserve"><value>Delta overlap (ms)</value></data>
+  <data name="Desktop.Attack" xml:space="preserve"><value>Delta attack (ms)</value></data>
+  <data name="Desktop.Release" xml:space="preserve"><value>Delta release (ms)</value></data>
+  <data name="Desktop.ToolChangesApplied" xml:space="preserve"><value>Perubahan alat diterapkan.</value></data>
+  <data name="Desktop.NotExecutable" xml:space="preserve"><value>Tidak ada izin eksekusi</value></data>
+  <data name="Desktop.NoteTool" xml:space="preserve"><value>Not · pilih, geser, ubah ukuran, dan buat</value></data>
+  <data name="Desktop.TuningTool" xml:space="preserve"><value>Tuning · jangkar pitch dan vibrato</value></data>
+  <data name="Desktop.TuningHint" xml:space="preserve"><value>Seret: geser jangkar pitch / handle vibrato · Klik kurva: tambah jangkar · Klik dua kali vibrato: alihkan · Seret tombol tengah: geser · Ctrl/Cmd + roda: zoom</value></data>
+  <data name="Desktop.PitchHint" xml:space="preserve"><value>Seret: gambar pitch · Klik kanan dan seret: hapus · Seret tombol tengah: geser · Ctrl/Cmd + roda: zoom</value></data>
+  <data name="Desktop.AllLanguages" xml:space="preserve"><value>Semua bahasa</value></data>
+  <data name="Desktop.DropOneInstaller" xml:space="preserve"><value>Jatuhkan satu installer sekali waktu.</value></data>
+  <data name="Desktop.Parameters" xml:space="preserve"><value>Panel parameter</value></data>
+  <data name="Desktop.EditExpressionLane" xml:space="preserve"><value>Edit ekspresi di panel parameter</value></data>
+  <data name="DependencyManager.SortByName" xml:space="preserve"><value>Urutkan berdasarkan nama</value></data>
+  <data name="DependencyManager.SortByDeveloper" xml:space="preserve"><value>Urutkan berdasarkan pengembang</value></data>
+  <data name="DependencyManager.LatestVersion" xml:space="preserve"><value>Versi terbaru</value></data>
+  <data name="DependencyManager.InstalledVersion" xml:space="preserve"><value>Versi terpasang</value></data>
+  <data name="DependencyManager.EmptyAvailable" xml:space="preserve"><value>Tidak ada paket tersedia.</value></data>
+  <data name="DependencyManager.EmptyInstalled" xml:space="preserve"><value>Belum ada paket terpasang.</value></data>
+  <data name="DependencyManager.NoResults" xml:space="preserve"><value>Tidak ada hasil yang cocok dengan pencarianmu.</value></data>
+  <data name="Desktop.Window" xml:space="preserve"><value>OUM</value></data>
+  <data name="Desktop.SurfaceUnavailable" xml:space="preserve"><value>Layar desktop ini belum tersedia.</value></data>
+  <data name="Desktop.Favorite" xml:space="preserve"><value>Favorit</value></data>
+  <data name="Home.Action.OpenTemplate" xml:space="preserve"><value>Buat dari templat terpilih</value></data>
+  <data name="Desktop.NavigationHint" xml:space="preserve"><value>Seret tombol tengah: geser · Ctrl/Cmd + roda: zoom</value></data>
+  <data name="Desktop.PitchEraserHint" xml:space="preserve"><value>Seret: hapus pitch · Seret tombol tengah: geser · Ctrl/Cmd + roda: zoom</value></data>
+  <data name="BulkLyricEdit.TargetCount" xml:space="preserve"><value>Not yang akan diperbarui: {0}</value></data>
+  <data name="Editor.Selection.Copied" xml:space="preserve">
+    <value>{0} part disalin</value>
+  </data>
+  <data name="PianoRoll.Selection.Selected" xml:space="preserve">
+    <value>{0} not terpilih</value>
+  </data>
+  <data name="PianoRoll.Selection.AllSelected" xml:space="preserve">
+    <value>Semua {0} not terpilih</value>
+  </data>
+  <data name="PianoRoll.Selection.Copied" xml:space="preserve">
+    <value>{0} not disalin</value>
+  </data>
+  <data name="TrackSettings.Title" xml:space="preserve"><value>Pengaturan trek</value></data>
+  <data name="TrackSettings.HoldHint" xml:space="preserve"><value>Tahan nama trek atau latar untuk membuka pengaturan trek</value></data>
+  <data name="TrackSettings.Singer" xml:space="preserve"><value>Penyanyi</value></data>
+  <data name="TrackSettings.ChooseSinger" xml:space="preserve"><value>Pilih penyanyi</value></data>
+  <data name="TrackSettings.Phonemizer" xml:space="preserve"><value>Phonemizer</value></data>
+  <data name="TrackSettings.ChoosePhonemizer" xml:space="preserve"><value>Pilih phonemizer</value></data>
+  <data name="TrackSettings.Renderer" xml:space="preserve"><value>Renderer</value></data>
+  <data name="TrackSettings.Resampler" xml:space="preserve"><value>Resampler</value></data>
+  <data name="TrackSettings.Wavtool" xml:space="preserve"><value>Wavtool</value></data>
+  <data name="TrackSettings.Expressions" xml:space="preserve"><value>Bawaan ekspresi…</value></data>
+  <data name="TrackSettings.Done" xml:space="preserve"><value>Selesai</value></data>
+  <data name="TrackSettings.NoSinger" xml:space="preserve"><value>Belum ada penyanyi dipilih</value></data>
+  <data name="TrackSettings.NoRenderers" xml:space="preserve"><value>Penyanyi ini tidak punya renderer yang didukung.</value></data>
+  <data name="TrackSettings.MissingSinger" xml:space="preserve"><value>Pilih penyanyi untuk mengatur render.</value></data>
+  <data name="TrackSettings.NoCompatibleTools" xml:space="preserve"><value>Tidak ada resampler dan wavtool yang kompatibel.</value></data>
+  <data name="TrackSettings.Error.Stale" xml:space="preserve"><value>Trek ini berubah saat pengaturan terbuka. Tutup dan buka lagi pengaturan trek.</value></data>
+  <data name="TrackSettings.Error.Busy" xml:space="preserve"><value>Edit lain sedang berlangsung. Tutup dulu sebelum menerapkan pengaturan trek.</value></data>
+  <data name="TrackSettings.Error.MissingSinger" xml:space="preserve"><value>Pilih penyanyi terpasang sebelum mengubah pengaturan render.</value></data>
+  <data name="TrackSettings.Error.SingerUnavailable" xml:space="preserve"><value>Penyanyi yang dipilih sudah tidak tersedia. Pilih lagi.</value></data>
+  <data name="TrackSettings.Error.PhonemizerUnavailable" xml:space="preserve"><value>Phonemizer yang dipilih sudah tidak tersedia. Pilih lagi.</value></data>
+  <data name="TrackSettings.Error.Renderer" xml:space="preserve"><value>Pilih renderer yang didukung penyanyi ini.</value></data>
+  <data name="TrackSettings.Error.Tools" xml:space="preserve"><value>Pilih resampler dan wavtool yang kompatibel.</value></data>
+  <data name="TrackSettings.Error.Apply" xml:space="preserve"><value>Pengaturan trek tidak dapat diterapkan.</value></data>
+  <data name="NoteProperties.PhonemizerUnavailable" xml:space="preserve"><value>Phonemizer tidak tersedia: {0}</value></data>
+  <data name="Picker.Phonemizer.Empty" xml:space="preserve"><value>Tidak ada phonemizer tersedia.</value></data>
+  <data name="SingerManagement.NoResults" xml:space="preserve"><value>Tidak ada penyanyi yang cocok dengan pencarianmu.</value></data>
+  <data name="ExpressionGraph.Title" xml:space="preserve"><value>Graph ekspresi</value></data>
+  <data name="ExpressionGraph.LibraryTitle" xml:space="preserve"><value>Graph ekspresi proyek</value></data>
+  <data name="ExpressionGraph.AllRenderers" xml:space="preserve"><value>Semua renderer</value></data>
+  <data name="ExpressionGraph.RendererFilter" xml:space="preserve"><value>Filter berdasarkan renderer</value></data>
+  <data name="ExpressionGraph.OtherRenderers" xml:space="preserve"><value>Renderer lain</value></data>
+  <data name="ExpressionGraph.Create" xml:space="preserve"><value>Buat graph ekspresi</value></data>
+  <data name="ExpressionGraph.CreateHint" xml:space="preserve"><value>Pilih renderer untuk membuat graph. Jika family-nya belum punya bawaan, graph preset baru menjadi bawaan untuk trek yang mengikutinya.</value></data>
+  <data name="ExpressionGraph.NewName" xml:space="preserve"><value>Graph {0}</value></data>
+  <data name="ExpressionGraph.CopyName" xml:space="preserve"><value>{0} (salinan)</value></data>
+  <data name="ExpressionGraph.Copy" xml:space="preserve"><value>Gandakan</value></data>
+  <data name="ExpressionGraph.NoRenderer" xml:space="preserve"><value>Renderer tidak ditentukan</value></data>
+  <data name="ExpressionGraph.ReferenceCount" xml:space="preserve"><value>Dirujuk oleh {0} trek</value></data>
+  <data name="ExpressionGraph.Valid" xml:space="preserve"><value>Status: valid</value></data>
+  <data name="ExpressionGraph.Invalid" xml:space="preserve"><value>Status: tidak valid — {0}</value></data>
+  <data name="ExpressionGraph.DefaultBadge" xml:space="preserve"><value>Bawaan {0}</value></data>
+  <data name="ExpressionGraph.DefaultFor" xml:space="preserve"><value>Bawaan untuk {0}</value></data>
+  <data name="ExpressionGraph.FollowingTrack" xml:space="preserve"><value>{0} · mengikuti bawaan</value></data>
+  <data name="ExpressionGraph.ExplicitTrack" xml:space="preserve"><value>{0} · rujukan eksplisit</value></data>
+  <data name="ExpressionGraph.Unused" xml:space="preserve"><value>Tidak ada trek yang merujuk graph ini.</value></data>
+  <data name="ExpressionGraph.FollowDefault" xml:space="preserve"><value>Mengikuti bawaan</value></data>
+  <data name="ExpressionGraph.Explicit" xml:space="preserve"><value>Pilihan eksplisit</value></data>
+  <data name="ExpressionGraph.Builtin" xml:space="preserve"><value>Memakai perilaku bawaan sistem</value></data>
+  <data name="ExpressionGraph.DefaultProblem" xml:space="preserve"><value>Bawaan untuk {0}: {1}</value></data>
+  <data name="ExpressionGraph.Empty" xml:space="preserve"><value>Proyek ini belum punya graph ekspresi. Gunakan tombol melayang untuk membuatnya.</value></data>
+  <data name="ExpressionGraph.FilterEmpty" xml:space="preserve"><value>Tidak ada graph ekspresi untuk family renderer ini.</value></data>
+  <data name="ExpressionGraph.Settings" xml:space="preserve"><value>Pengaturan graph</value></data>
+  <data name="ExpressionGraph.Name" xml:space="preserve"><value>Nama graph</value></data>
+  <data name="ExpressionGraph.PitchTarget" xml:space="preserve"><value>Kurva untuk mengedit dan memuat pitch</value></data>
+  <data name="ExpressionGraph.PitchDeviation" xml:space="preserve"><value>Deviasi pitch (PITD)</value></data>
+  <data name="ExpressionGraph.PitchOverride" xml:space="preserve"><value>Timpa pitch (PITO)</value></data>
+  <data name="ExpressionGraph.SetDefault" xml:space="preserve"><value>Graph bawaan untuk family renderer ini</value></data>
+  <data name="ExpressionGraph.References" xml:space="preserve"><value>Rujukan dan pemakaian</value></data>
+  <data name="ExpressionGraph.DefaultImpact" xml:space="preserve"><value>Menerapkan akan mengubah graph bawaan untuk trek berikut: {0}</value></data>
+  <data name="ExpressionGraph.PageActions" xml:space="preserve"><value>Aksi pustaka</value></data>
+  <data name="ExpressionGraph.GraphActions" xml:space="preserve"><value>Aksi graph</value></data>
+  <data name="ExpressionGraph.UndoProject" xml:space="preserve"><value>Undo aksi proyek</value></data>
+  <data name="ExpressionGraph.RedoProject" xml:space="preserve"><value>Redo aksi proyek</value></data>
+  <data name="ExpressionGraph.DeleteTitle" xml:space="preserve"><value>Hapus graph ekspresi</value></data>
+  <data name="ExpressionGraph.DeleteMessage" xml:space="preserve"><value>Menghapus “{0}” akan membersihkan rujukan bawaan dan timpaan trek-nya.
+
+{1}
+
+Trek terdampak akan memakai rujukan yang tersisa atau perilaku bawaan sistem. Kamu bisa membatalkan aksi ini.</value></data>
+  <data name="ExpressionGraph.StaleProject" xml:space="preserve"><value>Proyek berubah. Kembali ke editor dan buka lagi pustakanya.</value></data>
+  <data name="ExpressionGraph.StaleSettings" xml:space="preserve"><value>Graph atau rujukannya berubah. Tutup dan buka lagi pengaturan sebelum mengedit.</value></data>
+  <data name="ExpressionGraph.Busy" xml:space="preserve"><value>Aksi proyek lain sedang diproses. Coba lagi sebentar lagi.</value></data>
+  <data name="ExpressionGraph.NameRequired" xml:space="preserve"><value>Masukkan nama graph.</value></data>
+  <data name="FabMenu.Close" xml:space="preserve"><value>Tutup menu pembuatan</value></data>
+  <data name="FabMenu.Expanded" xml:space="preserve"><value>Menu dibuka</value></data>
+  <data name="FabMenu.Collapsed" xml:space="preserve"><value>Menu diciutkan</value></data>
+  <data name="ExpressionGraph.ReferenceWarnings" xml:space="preserve"><value>Peringatan rujukan ({0})</value></data>
+  <data name="ExpressionGraph.Import" xml:space="preserve"><value>Impor graph ekspresi</value></data>
+  <data name="ExpressionGraph.Export" xml:space="preserve"><value>Ekspor graph ekspresi</value></data>
+  <data name="ExpressionGraph.Imported" xml:space="preserve"><value>“{0}” diimpor.</value></data>
+  <data name="ExpressionGraph.ImportAdded" xml:space="preserve"><value>Definisi ekspresi ditambahkan: {0}</value></data>
+  <data name="ExpressionGraph.ImportConflicts" xml:space="preserve"><value>Definisi ekspresi bentrok; definisi proyek dipertahankan: {0}</value></data>
+  <data name="ExpressionGraph.ImportFailed" xml:space="preserve"><value>Impor gagal: {0}</value></data>
+  <data name="ExpressionGraph.ExportFailed" xml:space="preserve"><value>Ekspor gagal: {0}</value></data>
+  <data name="ExpressionGraph.Exported" xml:space="preserve"><value>Graph ekspresi diekspor ke: {0}</value></data>
+  <data name="ExpressionGraph.InvalidFileData" xml:space="preserve"><value>Berkas graph berisi data rusak atau duplikat.</value></data>
+  <data name="GraphViewer.ReadOnly" xml:space="preserve"><value>Tampilan baca-saja</value></data>
+  <data name="GraphViewer.Search" xml:space="preserve"><value>Cari</value></data>
+  <data name="GraphViewer.Fit" xml:space="preserve"><value>Pas ke layar</value></data>
+  <data name="GraphViewer.Locate" xml:space="preserve"><value>Temukan</value></data>
+  <data name="GraphViewer.ZoomIn" xml:space="preserve"><value>Perbesar</value></data>
+  <data name="GraphViewer.ZoomOut" xml:space="preserve"><value>Perkecil</value></data>
+  <data name="GraphViewer.Canvas" xml:space="preserve"><value>Kanvas graph ekspresi</value></data>
+  <data name="GraphViewer.Details" xml:space="preserve"><value>Detail</value></data>
+  <data name="GraphViewer.SearchHint" xml:space="preserve"><value>Jenis node, ID, atau parameter</value></data>
+  <data name="GraphViewer.SearchLimit" xml:space="preserve"><value>Maksimal 50 hasil. Ketik untuk mempersempit pencarian.</value></data>
+  <data name="GraphViewer.Input" xml:space="preserve"><value>Input</value></data>
+  <data name="GraphViewer.Output" xml:space="preserve"><value>Output</value></data>
+  <data name="GraphViewer.Fallback" xml:space="preserve"><value>Fallback</value></data>
+  <data name="GraphViewer.Diagnostic" xml:space="preserve"><value>Diagnostik graph</value></data>
+  <data name="GraphViewer.GraphMissing" xml:space="preserve"><value>Graph ini sudah dihapus dari proyek.</value></data>
+  <data name="GraphViewer.InvalidNode" xml:space="preserve"><value>Catatan node rusak</value></data>
+  <data name="GraphViewer.InvalidPosition" xml:space="preserve"><value>Koordinat tidak valid; ditampilkan di titik asal</value></data>
+  <data name="GraphViewer.UnknownNode" xml:space="preserve"><value>Jenis node tidak didukung</value></data>
+  <data name="GraphViewer.DuplicateId" xml:space="preserve"><value>ID node duplikat; tautan yang terhubung ambigu</value></data>
+  <data name="GraphViewer.InvalidLink" xml:space="preserve"><value>Tautan rusak atau tidak didukung</value></data>
+  <data name="GraphViewer.Unconnected" xml:space="preserve"><value>Tidak terhubung</value></data>
+  <data name="GraphViewer.Empty" xml:space="preserve"><value>Graph ini tidak punya node.</value></data>
+  <data name="GraphEdit.Parameters" xml:space="preserve"><value>Parameter node</value></data>
+  <data name="GraphEdit.Apply" xml:space="preserve"><value>Terapkan</value></data>
+  <data name="GraphEdit.Reload" xml:space="preserve"><value>Batal / muat ulang</value></data>
+  <data name="GraphEdit.Conflict" xml:space="preserve"><value>Node ini berubah saat kamu mengedit. Batal / muat ulang sebelum mengedit lagi.</value></data>
+  <data name="GraphEdit.MissingChoice" xml:space="preserve"><value>{0} (tidak tersedia)</value></data>
+  <data name="GraphEdit.InvalidNumber" xml:space="preserve"><value>Masukkan angka terhingga memakai titik desimal.</value></data>
+  <data name="GraphEdit.InvalidChoice" xml:space="preserve"><value>Pilih nilai yang tersedia.</value></data>
+  <data name="GraphEdit.Range" xml:space="preserve"><value>Masukkan nilai antara {0} dan {1}.</value></data>
+  <data name="GraphEdit.OverriddenFallback" xml:space="preserve"><value>Nilai fallback. Sumber yang terhubung saat ini menimpa nilai ini.</value></data>
+  <data name="GraphEdit.OptionalNumber" xml:space="preserve"><value>Kosongkan untuk memakai fallback bawaan node.</value></data>
+  <data name="GraphTopology.AddNode" xml:space="preserve"><value>Tambah node</value></data>
+  <data name="GraphTopology.DeleteNode" xml:space="preserve"><value>Hapus node</value></data>
+  <data name="GraphTopology.ChangeSource" xml:space="preserve"><value>Ganti sumber</value></data>
+  <data name="GraphTopology.Disconnect" xml:space="preserve"><value>Putuskan</value></data>
+  <data name="GraphTopology.DeleteMessage" xml:space="preserve"><value>Hapus {0} dan {1} tautan yang terhubung? Kamu bisa membatalkannya.</value></data>
+  <data name="GraphTopology.Stale" xml:space="preserve"><value>Graph berubah. Batalkan dan buka lagi operasi ini.</value></data>
+  <data name="GraphTopology.InvalidLink" xml:space="preserve"><value>Tidak dapat menghubungkan: port tidak valid atau akan terbentuk siklus. Koneksi yang ada tidak berubah.</value></data>
+  <data name="GraphTopology.SourceMessage" xml:space="preserve"><value>{0} · {1}
+Sumber saat ini: {2}
+Menerapkan akan mengganti sumber input ini.</value></data>
+  <data name="GraphTopology.Search" xml:space="preserve"><value>Cari jenis, ID node, atau port output</value></data>
+  <data name="GraphTopology.Results" xml:space="preserve"><value>{0} hasil</value></data>
+  <data name="GraphTopology.MoreResults" xml:space="preserve"><value>{0} hasil; menampilkan 100 pertama. Cari untuk mempersempit daftar.</value></data>
+  <data name="GraphTopology.TemplateHint" xml:space="preserve"><value>Tambahkan node dan koneksi ke graph kosong untuk menghasilkan output. Tidak otomatis dijadikan bawaan.</value></data>
+  <data name="GraphTopology.PresetGraph" xml:space="preserve"><value>Graph preset</value></data>
+  <data name="GraphTopology.EmptyGraph" xml:space="preserve"><value>Graph kosong</value></data>
+  <data name="GraphTopology.EmptyName" xml:space="preserve"><value>Graph kosong {0}</value></data>
+  <data name="GraphTopology.Editing" xml:space="preserve"><value>Pengeditan graph</value></data>
+  <data name="GraphTopology.Unavailable" xml:space="preserve"><value>Tidak lengkap atau tidak tersedia</value></data>
+  <data name="GraphTopology.NoOutputs" xml:space="preserve"><value>Belum ada output yang terhubung</value></data>
+  <data name="GraphEdit.Title" xml:space="preserve"><value>Editor graph</value></data>
+  <data name="GraphEdit.ResizePanel" xml:space="preserve"><value>Ubah ukuran panel properti</value></data>
+</root>

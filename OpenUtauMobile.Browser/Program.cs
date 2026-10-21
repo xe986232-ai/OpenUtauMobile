@@ -111,14 +111,7 @@ internal sealed partial class Program
             .WithInterFont()
             .With(new FontManagerOptions
             {
-                DefaultFamilyName = "fonts:Inter#Inter",
-                FontFallbacks =
-                [
-                    new FontFallback
-                    {
-                        FontFamily = new FontFamily("avares://OpenUtauMobile.Browser/Assets/Fonts#Noto Sans CJK SC")
-                    }
-                ]
+                DefaultFamilyName = "fonts:Inter#Inter"
             });
     }
 

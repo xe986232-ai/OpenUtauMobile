@@ -18,7 +18,7 @@ dotnet run --project OpenUtauMobile.Browser/OpenUtauMobile.Browser.csproj -c Deb
 - 启用 `WasmEnableThreads`，保留音素化与短语构建后台线程。SDK 开发服务器会自动附加跨源隔离响应头。
 - Debug 的原生编译使用 `-Oz`，原生链接使用 `-O2`。本机 .NET 10.0.12 的 `-O0` 多线程原生构建在运行时初始化时断言失败；这些设置保留 C# 的 Debug 配置和调试符号。相关上游记录：<https://github.com/dotnet/runtime/issues/112926>。
 - 浏览器发布关闭托管裁剪并启用 JSON 反射，保留现有序列化模型和通过反射发现的插件类型。代价是下载体积较大。
-- CJK 使用随应用打包的 Noto Sans CJK SC，西文使用 Inter。
+- 字体使用随 Avalonia.Fonts.Inter 打包的 Inter（界面语言为印尼语、英语、俄语、乌克兰语，不再打包 CJK 字体）。
 
 ## 发布托管
 

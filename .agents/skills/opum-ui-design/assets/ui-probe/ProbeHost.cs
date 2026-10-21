@@ -52,7 +52,7 @@ internal sealed class ProbeHost : IDisposable
         {
             Source = new Uri("avares://OpenUtauMobile/Themes/OpenUtauMobile/OpenUtauMobileTheme.axaml")
         });
-        LocalizationManager.LoadLanguage("zh-Hans");
+        LocalizationManager.LoadLanguage("id");
         Console.WriteLine("ISOLATED_PREFS " + PathManager.Inst.PrefsFilePath);
     }
 
