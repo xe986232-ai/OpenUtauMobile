@@ -18,6 +18,9 @@ on:
       version_lyrics:
         type: string
         default: ''
+      aot:
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -46,6 +49,7 @@ jobs:
         run: |
           args=()
           if [ -n "$PRODUCT_VERSION" ]; then args+=("-p:Version=$PRODUCT_VERSION"); fi
+          if [ "${{ inputs.aot }}" = "true" ]; then args+=("-p:RunAOTCompilation=true"); fi
           dotnet publish OpenUtauMobile.Browser/OpenUtauMobile.Browser.csproj \
             -c Release -o artifacts/publish/browser-wasm \
             -p:BuildNumber="$BUILD_NUMBER" -p:SourceCommit="$SOURCE_SHA" \
