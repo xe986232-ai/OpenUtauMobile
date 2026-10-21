@@ -25,6 +25,18 @@
         <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.29.0"/>
     </ItemGroup>
 
+    <!-- AOT 编译器在 SDL3-CS 等桌面专用程序集上会崩溃；浏览器用不到它们，改走解释器以跳过 AOT。 -->
+    <ItemGroup Condition="'$(RunAOTCompilation)' == 'true'">
+        <_AOT_InternalForceInterpretAssemblies Include="SDL3-CS.dll"/>
+        <_AOT_InternalForceInterpretAssemblies Include="Tmds.DBus.Protocol.dll"/>
+        <_AOT_InternalForceInterpretAssemblies Include="NAudio.dll"/>
+        <_AOT_InternalForceInterpretAssemblies Include="NAudio.Core.dll"/>
+        <_AOT_InternalForceInterpretAssemblies Include="NAudio.Wasapi.dll"/>
+        <_AOT_InternalForceInterpretAssemblies Include="NAudio.WinMM.dll"/>
+        <_AOT_InternalForceInterpretAssemblies Include="NAudio.Asio.dll"/>
+        <_AOT_InternalForceInterpretAssemblies Include="NAudio.Midi.dll"/>
+    </ItemGroup>
+
     <ItemGroup>
         <ProjectReference Include="..\OpenUtauMobile\OpenUtauMobile.csproj"/>
     </ItemGroup>
