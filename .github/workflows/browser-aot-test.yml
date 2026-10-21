@@ -1,6 +1,8 @@
 name: Browser AOT Test (branch vercel-site-aot)
 
 on:
+  push:
+    branches: [daw-core-aot]
   workflow_dispatch:
 
 permissions:
