@@ -50,10 +50,17 @@ jobs:
           args=()
           if [ -n "$PRODUCT_VERSION" ]; then args+=("-p:Version=$PRODUCT_VERSION"); fi
           if [ "${{ inputs.aot }}" = "true" ]; then args+=("-p:RunAOTCompilation=true"); fi
+          set +e
           dotnet publish OpenUtauMobile.Browser/OpenUtauMobile.Browser.csproj \
             -c Release -o artifacts/publish/browser-wasm \
             -p:BuildNumber="$BUILD_NUMBER" -p:SourceCommit="$SOURCE_SHA" \
-            -p:ActionRunId="$ACTION_RUN_ID" "${args[@]}"
+            -p:ActionRunId="$ACTION_RUN_ID" "${args[@]}" 2>&1 | tee publish.log
+          code=${PIPESTATUS[0]}
+          if [ "$code" -ne 0 ]; then
+            # 把错误行提升为注解，方便不下载完整日志也能看到失败原因
+            grep -E "error|Error|ERROR" publish.log | grep -v "warning" | awk '!seen[$0]++' | head -15 | while IFS= read -r l; do echo "::error::${l:0:900}"; done
+            exit "$code"
+          fi
       - name: Package Browser static files
         run: |
           tar -C artifacts/publish/browser-wasm/wwwroot -czf artifacts/OpenUtauMobile-browser-wasm.tar.gz .
