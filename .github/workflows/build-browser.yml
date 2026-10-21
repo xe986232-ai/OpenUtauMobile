@@ -49,7 +49,7 @@ jobs:
         run: |
           args=()
           if [ -n "$PRODUCT_VERSION" ]; then args+=("-p:Version=$PRODUCT_VERSION"); fi
-          if [ "${{ inputs.aot }}" = "true" ]; then args+=("-p:RunAOTCompilation=true"); fi
+          if [ "${{ inputs.aot }}" = "true" ]; then args+=("-p:RunAOTCompilation=true" "-p:PublishTrimmed=true" "-p:TrimMode=partial"); fi
           set +e
           dotnet publish OpenUtauMobile.Browser/OpenUtauMobile.Browser.csproj \
             -c Release -o artifacts/publish/browser-wasm \
